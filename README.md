@@ -1,40 +1,70 @@
-# 👋 Hey, I’m Ibrahim Arshad  
+# 👋 Hi, I’m Ibrahim Arshad  
+### 🚀 AI Engineer in Progress
 
-🚀 **AI Engineer in progress | Building foundations with ML math**  
-I’m currently working on **[ML Fundamentals](https://github.com/ibrahim1023/ml-fundamentals)** — a repo where I convert **CS229 math notes** into working machine learning projects.  
+I’m an aspiring **AI / Generative AI Engineer** actively building real-world projects while mastering the foundations required to get hired in AI engineering roles.
 
----
-
-## 📘 Featured Project  
-
-### [ML Fundamentals](https://github.com/ibrahim1023/ml-fundamentals)  
-- Turning **math → code → models**  
-- Step-by-step implementations of CS229 concepts  
-- Current: **Linear Regression with Gradient Descent**  
-- Next: Logistic Regression, Regularization, Softmax, PCA, Neural Nets  
+My focus is not just using tools — but **understanding how things work under the hood**, building end-to-end systems, and developing production-ready AI applications.
 
 ---
 
-## 📊 GitHub Analytics  
+## 🧠 What I’m Learning & Building
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ibrahim1023&show_icons=true&theme=radical)  
+### 🔹 Core AI Foundations
+- Machine Learning fundamentals (loss functions, gradient descent, optimization)
+- Model evaluation, data pipelines, and experimentation
+- Practical understanding of how models learn, not just how to call APIs
 
-### 🥧 Languages Pie Chart  
-![Languages Pie Chart](https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim1023&theme=radical&layout=pie)  
+### 🔹 Generative AI & LLM Engineering
+- Prompt engineering (system prompts, tool usage, structured outputs)
+- Retrieval-Augmented Generation (RAG)
+- LLM application design patterns
+- Model orchestration and agent workflows
+
+### 🔹 AI Engineering Stack
+- **Python** for ML & AI workflows  
+- **LangChain & LangGraph** for multi-step reasoning and agents  
+- **Hugging Face** (models, tokenizers, fine-tuning concepts)  
+- **Vector databases** & embeddings  
+- **APIs & backend integration** for AI apps  
 
 ---
 
-## 🛠️ Tech Toolbox  
+## 🛠️ Projects I’m Working On
 
-💻 Python | Rust | Solidity  
-🧠 LangChain | LangGraph | Hugging Face | CrewAI  
-📦 FAISS | Chroma | LoRA/PEFT  
-⚡ FastAPI | Streamlit | Google Colab | Git  
+### 🤖 GenAI Portfolio Projects (In Progress)
+- AI assistants with memory & tool usage  
+- RAG systems using documents & embeddings  
+- Multi-agent workflows for reasoning & task execution  
+- End-to-end AI apps (from data → model → API → UI)
+
+*(Projects are being built iteratively and added as they reach production quality.)*
 
 ---
 
-## 🔗 Connect  
+## 🧩 How I’m Preparing to Get Hired
 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ibrahim.a.motiwala)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/ibrahim-arshad-23355a166/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ibrahim1023)  
+I’m intentionally following an **AI Engineer path**, not a “prompt-only” path:
+
+- ✅ Strong ML fundamentals  
+- ✅ Hands-on GenAI projects  
+- ✅ Clean, documented repositories  
+- ✅ Realistic problem statements (not toy demos)  
+- ✅ Production thinking (scalability, reliability, evaluation)
+
+My goal is to be **job-ready**, not tutorial-ready.
+
+---
+
+## 📌 Current Focus
+- Building a solid GenAI portfolio  
+- Deepening understanding of LLM internals & workflows  
+- Writing clean, well-documented AI code  
+- Preparing for AI / GenAI engineering interviews  
+
+---
+
+## 📫 Let’s Connect
+- GitHub: https://github.com/ibrahim1023  
+- Open to: **AI Engineer / GenAI Engineer / Applied ML roles**
+
+---
