@@ -1,24 +1,13 @@
 # 👋 Hi, I’m Ibrahim Arshad  
 ### 🚀 AI Engineer in Progress
 
-I’m an aspiring **AI / Generative AI Engineer** actively building real-world projects while mastering the foundations required to get hired in AI engineering roles.
+I’m building a strong foundation in modern Generative AI systems, with a focus on how things actually work in production — prompt design, retrieval pipelines, evaluation, and backend APIs. I care less about flashy demos and more about correctness, grounding, and clear system behavior.
 
 My focus is not just using tools — but **understanding how things work under the hood**, building end-to-end systems, and developing production-ready AI applications.
 
 ---
 
 ## 🧠 What I’m Learning & Building
-
-### 🔹 Core AI Foundations
-- Machine Learning fundamentals (loss functions, gradient descent, optimization)
-- Model evaluation, data pipelines, and experimentation
-- Practical understanding of how models learn, not just how to call APIs
-
-### 🔹 Generative AI & LLM Engineering
-- Prompt engineering (system prompts, tool usage, structured outputs)
-- Retrieval-Augmented Generation (RAG)
-- LLM application design patterns
-- Model orchestration and agent workflows
 
 ### 🔹 AI Engineering Stack
 - **Python** for ML & AI workflows  
@@ -27,15 +16,12 @@ My focus is not just using tools — but **understanding how things work under t
 - **Vector databases** & embeddings  
 - **APIs & backend integration** for AI apps  
 
----
+## Current projects
+**[Multi-source RAG system](https://github.com/ibrahim1023/multi-source-rag-system)** — an end-to-end document Q&A platform with hybrid retrieval (vector + keyword), grounding with citations, refusal behavior, and evaluation tooling. Designed as a production-style system rather than a demo.
 
-## 🛠️ Projects I’m Working On
+**[Prompt Playground](https://github.com/ibrahim1023/prompt-playground)** — a structured environment to experiment with prompt engineering techniques such as few-shot prompting, schema-validated outputs, retries, and guardrails, with an emphasis on reliability and testability.
 
-### 🤖 GenAI Portfolio Projects (In Progress)
-- AI assistants with memory & tool usage  
-- RAG systems using documents & embeddings  
-- Multi-agent workflows for reasoning & task execution  
-- End-to-end AI apps (from data → model → API → UI)
+My goal is to grow into a Generative AI Engineer role, working on systems that are reliable, explainable, and maintainable.
 
 *(Projects are being built iteratively and added as they reach production quality.)*
 
@@ -65,6 +51,6 @@ My goal is to be **job-ready**, not tutorial-ready.
 
 ## 📫 Let’s Connect
 - GitHub: https://github.com/ibrahim1023  
-- Open to: **AI Engineer / GenAI Engineer / Applied ML roles**
+- Open to: **AI Engineer / GenAI Engineer**
 
 ---
