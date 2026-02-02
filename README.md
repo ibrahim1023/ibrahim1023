@@ -21,6 +21,8 @@ My focus is not just using tools — but **understanding how things work under t
 
 **[Prompt Playground](https://github.com/ibrahim1023/prompt-playground)** — a structured environment to experiment with prompt engineering techniques such as few-shot prompting, schema-validated outputs, retries, and guardrails, with an emphasis on reliability and testability.
 
+[**Deterministic Multi-Step Reasoning Engine**](https://github.com/ibrahim1023/deterministic-multi-step-engine) — A deterministic, testable, multi-step reasoning engine / SDK designed for structured, validated execution (planning & design phase) 
+
 My goal is to grow into a Generative AI Engineer role, working on systems that are reliable, explainable, and maintainable.
 
 *(Projects are being built iteratively and added as they reach production quality.)*
