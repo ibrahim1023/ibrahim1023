@@ -26,11 +26,10 @@ and human control over execution.
 
 ---
 
-## 🧪 Completed Learning Projects
+## 🧪 Learning Projects
 
 The following projects were built to **explore and stress-test ideas** around AI workflows,
-determinism, and reasoning systems. They are complete learning projects and are no longer
-under active development.
+determinism, and reasoning systems.
 
 ---
 
