@@ -1,58 +1,80 @@
-# 👋 Hi, I’m Ibrahim Arshad  
-### 🚀 AI Engineer in Progress
+# 👋 Hi, I’m Ibrahim
 
-I’m building a strong foundation in modern Generative AI systems, with a focus on how things actually work in production — prompt design, retrieval pipelines, evaluation, and backend APIs. I care less about flashy demos and more about correctness, grounding, and clear system behavior.
+I’m a software engineer focused on **deterministic systems, AI reliability, and production-grade GenAI tooling**.
 
-My focus is not just using tools — but **understanding how things work under the hood**, building end-to-end systems, and developing production-ready AI applications.
-
----
-
-## 🧠 What I’m Learning & Building
-
-### 🔹 AI Engineering Stack
-- **Python** for ML & AI workflows  
-- **LangChain & LangGraph** for multi-step reasoning and agents  
-- **Hugging Face** (models, tokenizers, fine-tuning concepts)  
-- **Vector databases** & embeddings  
-- **APIs & backend integration** for AI apps  
-
-## Current projects
-**[Multi-source RAG system](https://github.com/ibrahim1023/multi-source-rag-system)** — an end-to-end document Q&A platform with hybrid retrieval (vector + keyword), grounding with citations, refusal behavior, and evaluation tooling. Designed as a production-style system rather than a demo.
-
-**[Prompt Playground](https://github.com/ibrahim1023/prompt-playground)** — a structured environment to experiment with prompt engineering techniques such as few-shot prompting, schema-validated outputs, retries, and guardrails, with an emphasis on reliability and testability.
-
-[**Deterministic Multi-Step Reasoning Engine**](https://github.com/ibrahim1023/deterministic-multi-step-engine) — A deterministic, testable, multi-step reasoning engine / SDK designed for structured, validated execution (planning & design phase) 
-
-My goal is to grow into a Generative AI Engineer role, working on systems that are reliable, explainable, and maintainable.
-
-*(Projects are being built iteratively and added as they reach production quality.)*
+I like building things that reduce ambiguity: explicit workflows, clear contracts, reproducible runs, and systems that are easy to reason about and debug.
 
 ---
 
-## 🧩 How I’m Preparing to Get Hired
+## 🚧 Current Project
 
-I’m intentionally following an **AI Engineer path**, not a “prompt-only” path:
+### [llmflow-core — Deterministic LLM Workflow Engine](https://github.com/ibrahim1023/llmflow-core)
+**Status:** In active development
 
-- ✅ Strong ML fundamentals  
-- ✅ Hands-on GenAI projects  
-- ✅ Clean, documented repositories  
-- ✅ Realistic problem statements (not toy demos)  
-- ✅ Production thinking (scalability, reliability, evaluation)
+A **library-first**, deterministic workflow engine for running LLM-powered pipelines as
+explicit, human-readable steps — with schema validation, replayable runs, and audit-friendly artifacts.
 
-My goal is to be **job-ready**, not tutorial-ready.
+**What it focuses on**
+- Deterministic execution (no autonomous agent loops)
+- Explicit, file-defined workflows (YAML + prompt files)
+- Schema-enforced LLM outputs (fail fast on violations)
+- Reproducible runs with persisted artifacts
+- Designed to plug into existing AI applications
 
----
-
-## 📌 Current Focus
-- Building a solid GenAI portfolio  
-- Deepening understanding of LLM internals & workflows  
-- Writing clean, well-documented AI code  
-- Preparing for AI / GenAI engineering interviews  
+This project is built with production constraints in mind: predictability, debuggability,
+and human control over execution.
 
 ---
 
-## 📫 Let’s Connect
-- GitHub: https://github.com/ibrahim1023  
-- Open to: **AI Engineer / GenAI Engineer**
+## 🧪 Completed Learning Projects
+
+The following projects were built to **explore and stress-test ideas** around AI workflows,
+determinism, and reasoning systems. They are complete learning projects and are no longer
+under active development.
 
 ---
+
+### [Multi-Source RAG System](https://github.com/ibrahim1023/multi-source-rag-system)  
+
+An implementation of a retrieval-augmented generation system that aggregates results from
+multiple data sources before generation.
+
+- Focus: RAG architecture, grounding, and retrieval composition
+- Explored trade-offs between single-source vs multi-source retrieval
+- Helped build intuition for reliability issues in RAG pipelines
+---
+
+### [Prompt Playground](https://github.com/ibrahim1023/prompt-playground)  
+
+A structured playground for experimenting with **prompt engineering techniques** and
+understanding how prompt changes affect model behavior.
+
+- Focus: prompt iteration, structure, and constraints
+- Emphasis on reproducibility and clarity over ad-hoc prompting
+- Reinforced the importance of treating prompts as versioned artifacts
+---
+
+### [Deterministic Multi-Step Reasoning Engine](https://github.com/ibrahim1023/deterministic-multi-step-engine)  
+**Status:** In active development
+
+A prototype engine exploring **deterministic step execution**, explicit control flow, and
+state propagation across multi-step reasoning pipelines.
+
+- Focus: deterministic execution and step orchestration
+- Highlighted limitations of generic step engines for LLM workflows
+- Directly informed the design philosophy behind `llmflow-core`
+---
+
+## 🎯 Current Interests
+
+- Deterministic and auditable AI systems
+- LLM reliability, validation, and evaluation
+- AI developer tooling & infrastructure
+- Production-grade GenAI architectures
+
+---
+
+## 📫 Get in touch
+
+- [GitHub](https://github.com/ibrahim1023)
+- [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
