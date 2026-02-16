@@ -8,21 +8,23 @@ I like building things that reduce ambiguity: explicit workflows, clear contract
 
 ## 🚧 Current Project
 
-### [llmflow-core — Deterministic LLM Workflow Engine](https://github.com/ibrahim1023/llmflow-core)
-**Status:** In active development
+### llmflow-core — Deterministic LLM Workflow Engine  
+**Status:** Active (Published on PyPI)
 
-A **library-first**, deterministic workflow engine for running LLM-powered pipelines as
-explicit, human-readable steps — with schema validation, replayable runs, and audit-friendly artifacts.
+A **library-first, deterministic workflow engine** for running LLM-powered pipelines as explicit, human-readable steps — without autonomous agents.
 
-**What it focuses on**
-- Deterministic execution (no autonomous agent loops)
-- Explicit, file-defined workflows (YAML + prompt files)
-- Schema-enforced LLM outputs (fail fast on violations)
-- Reproducible runs with persisted artifacts
-- Designed to plug into existing AI applications
+LLMFlow enforces:
+- Explicit DAG-based execution order
+- Schema-validated LLM outputs (fail-fast)
+- Prompt files as versioned artifacts
+- Replayable runs with stored metadata
+- Deterministic configuration (temperature control)
 
-This project is built with production constraints in mind: predictability, debuggability,
-and human control over execution.
+Designed to plug into existing AI applications where predictability,
+auditability, and control matter more than autonomy.
+
+📦 [PyPI](https://pypi.org/project/llmflow-core/)   
+🔗 [Repo](https://github.com/ibrahim1023/llmflow-core) 
 
 ---
 
@@ -54,7 +56,6 @@ understanding how prompt changes affect model behavior.
 ---
 
 ### [Deterministic Multi-Step Reasoning Engine](https://github.com/ibrahim1023/deterministic-multi-step-engine)  
-**Status:** In active development
 
 A prototype engine exploring **deterministic step execution**, explicit control flow, and
 state propagation across multi-step reasoning pipelines.
