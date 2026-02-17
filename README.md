@@ -6,7 +6,21 @@ I like building things that reduce ambiguity: explicit workflows, clear contract
 
 ---
 
-## 🚧 Current Project
+## 🚧 Current Projects
+
+### llmdiff — LLM Diff & Regression Testing Framework
+**Status:** In progress
+
+Snapshot + contract testing for LLM systems with semantic diffing and CI regression gates.
+
+Production-grade regression testing for LLM systems.
+- Snapshot + contract testing for prompts
+- Semantic diffing (LLM-as-judge)
+- Tool-call validation
+- Cost & latency regression tracking
+- CI-ready exit codes
+
+Designed to bring reproducibility and guardrails to nondeterministic LLM pipelines.
 
 ### llmflow-core — Deterministic LLM Workflow Engine  
 **Status:** Active (Published on PyPI)
