@@ -22,6 +22,9 @@ Production-grade regression testing for LLM systems.
 
 Designed to bring reproducibility and guardrails to nondeterministic LLM pipelines.
 
+
+🔗 [Repo](https://github.com/ibrahim1023/llmdiff)
+
 ### llmflow-core — Deterministic LLM Workflow Engine  
 **Status:** Active (Published on PyPI)
 
