@@ -8,40 +8,17 @@ I like building things that reduce ambiguity: explicit workflows, clear contract
 
 ## 🚧 Current Projects
 
-### llmdiff — LLM Diff & Regression Testing Framework
-**Status:** In progress
+#### [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause) — Deterministic Multi-Agent CI Debugging Engine [In progress]
+An ADK-based multi-agent system that analyzes failed CI runs using failure graphs, diff-correlation, and deterministic root-cause ranking.
+Generates structured RCA artifacts with computed confidence — not just LLM summaries.
 
-Snapshot + contract testing for LLM systems with semantic diffing and CI regression gates.
+#### [llmdiff](https://github.com/ibrahim1023/llmdiff) — Deterministic LLM Regression & Diff Testing Tool [In progress]
+A framework for comparing LLM outputs across prompts, models, and versions with structured diff analysis and reproducible scoring.
+Designed to detect silent behavior changes, prompt regressions, and output drift in production LLM systems.
 
-Production-grade regression testing for LLM systems.
-- Snapshot + contract testing for prompts
-- Semantic diffing (LLM-as-judge)
-- Tool-call validation
-- Cost & latency regression tracking
-- CI-ready exit codes
-
-Designed to bring reproducibility and guardrails to nondeterministic LLM pipelines.
-
-
-🔗 [Repo](https://github.com/ibrahim1023/llmdiff)
-
-### llmflow-core — Deterministic LLM Workflow Engine  
-**Status:** Active (Published on PyPI)
-
-A **library-first, deterministic workflow engine** for running LLM-powered pipelines as explicit, human-readable steps — without autonomous agents.
-
-LLMFlow enforces:
-- Explicit DAG-based execution order
-- Schema-validated LLM outputs (fail-fast)
-- Prompt files as versioned artifacts
-- Replayable runs with stored metadata
-- Deterministic configuration (temperature control)
-
-Designed to plug into existing AI applications where predictability,
-auditability, and control matter more than autonomy.
-
-📦 [PyPI](https://pypi.org/project/llmflow-core/)   
-🔗 [Repo](https://github.com/ibrahim1023/llmflow-core) 
+#### [llmflow-core](https://github.com/ibrahim1023/llmflow-core) — Deterministic LLM Workflow Engine
+A production-ready SDK for building deterministic, multi-step LLM workflows with strict execution guarantees and structured reasoning.
+Focused on reliability, reproducibility, and eliminating hallucination-prone agent loops.
 
 ---
 
