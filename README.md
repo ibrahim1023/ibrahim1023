@@ -8,9 +8,8 @@ I like building things that reduce ambiguity: explicit workflows, clear contract
 
 ## 🚧 Current Projects
 
-#### [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause) — Deterministic Multi-Agent CI Debugging Engine [In progress]
-An ADK-based multi-agent system that analyzes failed CI runs using failure graphs, diff-correlation, and deterministic root-cause ranking.
-Generates structured RCA artifacts with computed confidence — not just LLM summaries.
+#### [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause) — Multi-Agent CI Debugging Engine [In progress]
+An ADK-oriented multi-agent CI analysis system that deterministically extracts first failure, builds failure graphs, correlates failures with diffs, ranks root causes with computed confidence (not LLM-generated), proposes evidence-grounded fixes, and can open a guarded fix PR (never auto-merged). Produces ci-rca.json and ci-rca.md artifacts.
 
 #### [llmdiff](https://github.com/ibrahim1023/llmdiff) — Deterministic LLM Regression & Diff Testing Tool [In progress]
 A framework for comparing LLM outputs across prompts, models, and versions with structured diff analysis and reproducible scoring.
