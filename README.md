@@ -8,12 +8,11 @@ I like building things that reduce ambiguity: explicit workflows, clear contract
 
 ## 🚧 Current Projects
 
+#### screenflow-ios — On-Screen Understanding → AI Action Engine (iOS)
+screenflow-ios is an AI-powered iOS app that converts screenshots into structured, actionable workflows. It analyzes on-screen content, extracts meaningful context, and uses LLMs to generate relevant actions users can execute instantly. The system combines visual parsing, semantic understanding, and a modular action engine to turn passive screen content into useful outcomes.
+
 #### [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause) — Multi-Agent CI Debugging Engine [In progress]
 An ADK-oriented multi-agent CI analysis system that deterministically extracts first failure, builds failure graphs, correlates failures with diffs, ranks root causes with computed confidence (not LLM-generated), proposes evidence-grounded fixes, and can open a guarded fix PR (never auto-merged). Produces ci-rca.json and ci-rca.md artifacts.
-
-#### [llmdiff](https://github.com/ibrahim1023/llmdiff) — Deterministic LLM Regression & Diff Testing Tool [In progress]
-A framework for comparing LLM outputs across prompts, models, and versions with structured diff analysis and reproducible scoring.
-Designed to detect silent behavior changes, prompt regressions, and output drift in production LLM systems.
 
 #### [llmflow-core](https://github.com/ibrahim1023/llmflow-core) — Deterministic LLM Workflow Engine
 A production-ready SDK for building deterministic, multi-step LLM workflows with strict execution guarantees and structured reasoning.
