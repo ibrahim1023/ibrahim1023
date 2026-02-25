@@ -8,7 +8,7 @@ I like building things that reduce ambiguity: explicit workflows, clear contract
 
 ## 🚧 Current Projects
 
-#### [screenflow-ios](https://github.com/ibrahim1023/screenflow) — On-Screen Understanding → AI Action Engine (iOS)
+#### [screenflow-ios](https://github.com/ibrahim1023/screenflow) — On-Screen Understanding → AI Action Engine (iOS) [in progress]
 screenflow-ios is an AI-powered iOS app that converts screenshots into structured, actionable workflows. It analyzes on-screen content, extracts meaningful context, and uses LLMs to generate relevant actions users can execute instantly. The system combines visual parsing, semantic understanding, and a modular action engine to turn passive screen content into useful outcomes.
 
 #### [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause) — Multi-Agent CI Debugging Engine [Available on [marketplace](https://github.com/marketplace/actions/ci-rootcause)]
