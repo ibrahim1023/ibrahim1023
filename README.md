@@ -1,72 +1,185 @@
-# 👋 Hi, I’m Ibrahim
+# Ibrahim Arshad
 
-I’m a software engineer focused on **deterministic systems, AI reliability, and production-grade GenAI tooling**.
+AI engineer building deterministic agent systems, LLM infrastructure, and AI-powered applications.
 
-I like building things that reduce ambiguity: explicit workflows, clear contracts, reproducible runs, and systems that are easy to reason about and debug.
-
----
-
-## 🚧 Current Projects
-
-#### [screenflow-ios](https://github.com/ibrahim1023/screenflow) — On-Screen Understanding → AI Action Engine (iOS) [in progress]
-screenflow-ios is an AI-powered iOS app that converts screenshots into structured, actionable workflows. It analyzes on-screen content, extracts meaningful context, and uses LLMs to generate relevant actions users can execute instantly. The system combines visual parsing, semantic understanding, and a modular action engine to turn passive screen content into useful outcomes.
-
-#### [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause) — Multi-Agent CI Debugging Engine [Available on [marketplace](https://github.com/marketplace/actions/ci-rootcause)]
-An ADK-oriented multi-agent CI analysis system that deterministically extracts first failure, builds failure graphs, correlates failures with diffs, ranks root causes with computed confidence (not LLM-generated), proposes evidence-grounded fixes, and can open a guarded fix PR (never auto-merged). Produces ci-rca.json and ci-rca.md artifacts.
-
-#### [llmflow-core](https://github.com/ibrahim1023/llmflow-core) — Deterministic LLM Workflow Engine
-A production-ready SDK for building deterministic, multi-step LLM workflows with strict execution guarantees and structured reasoning.
-Focused on reliability, reproducibility, and eliminating hallucination-prone agent loops.
+My work focuses on making AI systems reliable, traceable, and reproducible. I design multi-agent architectures, deterministic execution engines, and real-world AI applications that convert unstructured input into structured, actionable outputs.
 
 ---
 
-## 🧪 Learning Projects
+# Flagship Projects
 
-The following projects were built to **explore and stress-test ideas** around AI workflows,
-determinism, and reasoning systems.
+## ci-rootcause — Deterministic Multi-Agent CI Root Cause Engine
 
----
+Deterministic multi-agent system that analyzes CI failures and identifies root causes using structured evidence and reproducible reasoning.
 
-### [Multi-Source RAG System](https://github.com/ibrahim1023/multi-source-rag-system)  
+**Key features**
 
-An implementation of a retrieval-augmented generation system that aggregates results from
-multiple data sources before generation.
+- Deterministic failure graph construction  
+- Ranked root-cause candidates with explicit scoring  
+- Evidence-based confidence scoring  
+- Structured outputs (`ci-rca.json`, `ci-rca.md`)  
+- Full traceability and replayable execution  
 
-- Focus: RAG architecture, grounding, and retrieval composition
-- Explored trade-offs between single-source vs multi-source retrieval
-- Helped build intuition for reliability issues in RAG pipelines
----
+**Focus areas**
 
-### [Prompt Playground](https://github.com/ibrahim1023/prompt-playground)  
-
-A structured playground for experimenting with **prompt engineering techniques** and
-understanding how prompt changes affect model behavior.
-
-- Focus: prompt iteration, structure, and constraints
-- Emphasis on reproducibility and clarity over ad-hoc prompting
-- Reinforced the importance of treating prompts as versioned artifacts
----
-
-### [Deterministic Multi-Step Reasoning Engine](https://github.com/ibrahim1023/deterministic-multi-step-engine)  
-
-A prototype engine exploring **deterministic step execution**, explicit control flow, and
-state propagation across multi-step reasoning pipelines.
-
-- Focus: deterministic execution and step orchestration
-- Highlighted limitations of generic step engines for LLM workflows
-- Directly informed the design philosophy behind `llmflow-core`
----
-
-## 🎯 Current Interests
-
-- Deterministic and auditable AI systems
-- LLM reliability, validation, and evaluation
-- AI developer tooling & infrastructure
-- Production-grade GenAI architectures
+- Multi-agent orchestration  
+- Deterministic reasoning pipelines  
+- CI observability and debugging automation  
 
 ---
 
-## 📫 Get in touch
+## llmflow-core — Deterministic LLM Workflow Engine
 
-- [GitHub](https://github.com/ibrahim1023)
-- [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
+Execution engine and SDK for building reproducible LLM workflows with explicit state, structured traces, and deterministic guarantees.
+
+**Key features**
+
+- Explicit workflow state machines  
+- Structured execution traces  
+- Deterministic workflow execution  
+- Replayable runs and debugging support  
+- Infrastructure for reliable LLM systems  
+
+**Focus areas**
+
+- LLM infrastructure  
+- Workflow orchestration  
+- Execution engines for AI systems  
+
+---
+
+## ScreenFlow — On-Screen Understanding → One-Tap AI Actions (In Progress)
+
+AI-powered iOS application that understands screen content and converts it into structured, actionable workflows using LLMs.
+
+ScreenFlow enables users to take screenshots and instantly perform intelligent actions such as extracting structured data, summarizing content, generating replies, or triggering workflows.
+
+**Key features**
+
+- Screenshot-based AI understanding  
+- Structured extraction from visual input  
+- Context-aware action generation  
+- LLM-powered reasoning over screen content  
+- AI-driven workflow automation  
+
+**Focus areas**
+
+- AI-powered mobile applications  
+- Human-AI interaction systems  
+- LLM-powered structured extraction  
+- Real-world AI usability  
+
+---
+
+## Deterministic Multi-Step Reasoning Engine
+
+Execution engine for structured reasoning pipelines where every step is explicit, traceable, and replayable.
+
+**Key features**
+
+- Multi-step reasoning pipelines  
+- Explicit intermediate state representation  
+- Deterministic execution guarantees  
+- Trace generation and replay  
+- Structured reasoning outputs  
+
+**Focus areas**
+
+- Agent reasoning systems  
+- Deterministic execution engines  
+- Traceable AI pipelines  
+
+---
+
+# Technical Focus
+
+**Agent Systems**
+
+- Multi-agent architectures  
+- Deterministic reasoning systems  
+- Agent orchestration  
+- Execution engines  
+
+**LLM Infrastructure**
+
+- Workflow orchestration  
+- Trace and observability tooling  
+- Structured execution pipelines  
+- Evaluation-aware system design  
+
+**AI Applications**
+
+- LLM-powered applications  
+- Screenshot and visual understanding workflows  
+- Structured extraction from unstructured input  
+- AI-driven automation tools  
+
+**Backend Systems**
+
+- Python backend development  
+- FastAPI services  
+- State machines and execution pipelines  
+- Structured logging and tracing  
+
+---
+
+# Tech Stack
+
+Languages
+
+- Python  
+- Swift  
+- TypeScript  
+- Rust  
+
+AI / LLM
+
+- OpenAI API  
+- LangChain  
+- LangGraph  
+- FAISS  
+
+Backend
+
+- FastAPI  
+- REST APIs  
+- Execution pipelines  
+- Structured logging and tracing  
+
+Mobile
+
+- iOS  
+- Swift  
+- AI-powered mobile workflows  
+
+Databases
+
+- PostgreSQL  
+- SQLite  
+- SQL  
+
+Infrastructure
+
+- GitHub Actions  
+- CI/CD systems  
+- Structured system design  
+
+---
+
+# Engineering Principles
+
+- Deterministic execution over non-reproducible behavior  
+- Explicit state over implicit state  
+- Traceability and replayability  
+- Evaluation-driven system design  
+- Reliability as a core system property  
+
+---
+
+# GitHub
+
+Explore my repositories to see implementations of deterministic agent systems, execution engines, and AI-powered applications:
+
+https://github.com/ibrahim1023
+
+---
