@@ -66,5 +66,5 @@ Core Areas:
 
 ## Contact
 
-- GitHub: https://github.com/ibrahim1023
-- LinkedIn: (add link)
+- [GitHub](https://github.com/ibrahim1023)
+- [Linkedin](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
