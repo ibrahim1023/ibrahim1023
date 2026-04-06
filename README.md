@@ -1,11 +1,11 @@
 # Ibrahim Arshad
 
-Software Engineer focused on deterministic systems, multi-agent architectures, and production-grade backend tooling.
+Software Engineer focused on deterministic systems, multi-agent architectures, and production-grade backend and AI systems.
 
 I build systems where:
-- Outputs are reproducible
-- Failures are traceable
-- Automation is controlled and reliable
+- Outputs are reproducible  
+- Failures are traceable  
+- Automation is controlled and reliable  
 
 ---
 
@@ -13,9 +13,10 @@ I build systems where:
 
 - Design deterministic systems with clear execution guarantees  
 - Build structured multi-agent workflows (analysis → reasoning → action → validation)  
-- Focus on reliability, debuggability, and real-world usage  
+- Develop backend and AI systems that are debuggable and production-ready  
 
-Currently expanding into:
+Currently working across:
+→ AI systems (LLM workflows, agent orchestration, evaluation)  
 → Blockchain systems (smart contracts, infra, trading systems)  
 → Distributed systems + automation tooling  
 
@@ -24,9 +25,9 @@ Currently expanding into:
 ## Open Source Focus (2026)
 
 Actively contributing to:
+- AI infrastructure (LLM tooling, agents, evaluation systems)  
 - Blockchain systems (smart contracts, tooling, infra)  
-- Backend infrastructure projects  
-- Developer tooling  
+- Backend infrastructure and developer tooling  
 
 Approach:
 → consistent, high-frequency contributions  
@@ -50,6 +51,7 @@ Python · TypeScript · JavaScript · Rust · Solidity
 
 Core Areas:
 - Backend systems  
+- AI systems (LLMs, agent workflows, evaluation)  
 - CI/CD tooling  
 - Distributed systems  
 - Blockchain / Web3  
@@ -59,12 +61,12 @@ Core Areas:
 ## What I’m Looking For
 
 - Remote software engineering roles  
-- Teams building real systems with production impact  
-- Work involving backend systems, infrastructure, or blockchain  
+- Work involving AI systems, backend infrastructure, or blockchain  
+- Teams building production-grade systems  
 
 ---
 
 ## Contact
 
-- [GitHub](https://github.com/ibrahim1023)
-- [Linkedin](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
+- GitHub: https://github.com/ibrahim1023
+- LinkedIn: (add link)
