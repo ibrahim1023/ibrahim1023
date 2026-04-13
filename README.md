@@ -30,9 +30,13 @@ Actively contributing to:
 - Backend infrastructure and developer tooling  
 
 Approach:
-→ consistent, high-frequency contributions  
+→ consistent, high-frequency contributions
 → focus on real issues that get merged  
 
+### vLLM
+- [PR #39169](https://github.com/vllm-project/vllm/pull/39169)  
+  Resolved inconsistency between GDN warmup and real prefill paths by matching fused_post_conv_prep + kernel config.  
+  Prevented first-request overhead caused by deferred compute and added regression coverage for stability.
 ---
 
 ## Engineering Approach
