@@ -62,14 +62,6 @@ Core Areas:
 
 ---
 
-## What I’m Looking For
-
-- Remote software engineering roles  
-- Work involving AI systems, backend infrastructure, or blockchain  
-- Teams building production-grade systems  
-
----
-
 ## Contact
 
 - [GitHub](https://github.com/ibrahim1023) 
