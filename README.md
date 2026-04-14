@@ -15,9 +15,8 @@ I build systems where:
 - Build structured multi-agent workflows (analysis → reasoning → action → validation)  
 - Develop backend and AI systems that are debuggable and production-ready  
 
-Currently working across:
+### Currently working across
 → AI systems (LLM workflows, agent orchestration, evaluation)  
-→ Blockchain systems (smart contracts, infra, trading systems)  
 → Distributed systems + automation tooling  
 
 ---
@@ -26,7 +25,6 @@ Currently working across:
 
 Actively contributing to:
 - AI infrastructure (LLM tooling, agents, evaluation systems)  
-- Blockchain systems (smart contracts, tooling, infra)  
 - Backend infrastructure and developer tooling  
 
 Approach:
@@ -63,8 +61,7 @@ Core Areas:
 - Backend systems  
 - AI systems (LLMs, agent workflows, evaluation)  
 - CI/CD tooling  
-- Distributed systems  
-- Blockchain / Web3  
+- Distributed systems
 
 ---
 
