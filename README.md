@@ -36,7 +36,6 @@ Approach:
 ### PRs
 
 <!-- PRS:START -->
-[github.com/ibrahim1023](https://github.com/ibrahim1023)
 
 - [Open] [#2316](https://github.com/langchain-ai/langgraphjs/pull/2316) fix(sdk): Backfill truncated history for regenerate branching in `langchain-ai/langgraphjs`
 - [Open] [#21386](https://github.com/run-llama/llama_index/pull/21386) fix(azureaisearch): preserve falsy metadata values in index mapping in `run-llama/llama_index`

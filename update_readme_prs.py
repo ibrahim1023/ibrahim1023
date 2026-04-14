@@ -190,10 +190,7 @@ def render_section(
         key=lambda pr: parse_github_timestamp(pr.updated_at),
         reverse=True,
     )[:DEFAULT_LIMIT]
-    lines = [
-        START_MARKER,
-        f"[github.com/{user}](https://github.com/{user})",
-    ]
+    lines = [START_MARKER]
 
     if prs:
         lines.append("")
