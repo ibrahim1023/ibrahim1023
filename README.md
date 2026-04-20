@@ -35,11 +35,11 @@ Approach:
 
 <!-- PRS:START -->
 
+- [Open] [#5545](https://github.com/crewAIInc/crewAI/pull/5545) fix(flow,task): handle pydantic outputs in guardrail retries and checkpoint serialization in `crewAIInc/crewAI`
 - [Open] [#2316](https://github.com/langchain-ai/langgraphjs/pull/2316) fix(sdk): Backfill truncated history for regenerate branching in `langchain-ai/langgraphjs`
 - [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
 - [Open] [#21386](https://github.com/run-llama/llama_index/pull/21386) fix(azureaisearch): preserve falsy metadata values in index mapping in `run-llama/llama_index`
 - [Open] [#21336](https://github.com/run-llama/llama_index/pull/21336) fix(elasticsearch): split sync and async store paths in `run-llama/llama_index`
-- [Merged] [#39169](https://github.com/vllm-project/vllm/pull/39169) fix(gdn): Align prefill warmup with real prefill path in `vllm-project/vllm`
 
 <!-- PRS:END -->
 
