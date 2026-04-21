@@ -25,7 +25,7 @@ START_MARKER = "<!-- PRS:START -->"
 END_MARKER = "<!-- PRS:END -->"
 GITHUB_API_BASE = "https://api.github.com"
 DEFAULT_USER = "ibrahim1023"
-DEFAULT_LIMIT = 5
+DEFAULT_LIMIT = 7
 ENV_FILE = ".env"
 
 
