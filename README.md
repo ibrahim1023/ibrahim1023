@@ -1,31 +1,87 @@
 # Ibrahim Arshad
 
-Software Engineer focused on deterministic systems, multi-agent architectures, and production-grade backend and AI systems.
-
-I build systems where:
-- Outputs are reproducible  
-- Failures are traceable  
-- Automation is controlled and reliable  
+Building deterministic AI systems, not demos.
 
 ---
 
-## What I Do
+## About
 
-- Design deterministic systems with clear execution guarantees  
-- Build structured multi-agent workflows (analysis → reasoning → action → validation)  
-- Develop backend and AI systems that are debuggable and production-ready  
+Software engineer focused on agentic AI systems.
+
+I build:
+- multi-agent systems with structured orchestration  
+- deterministic harnesses for reliability  
+- evaluation-aware AI systems (focused on correctness, not just output)
+
+Focus areas:
+- agent orchestration (LangChain, LangGraph, custom harnesses)
+- context + tool design (ACI-style systems)
+- AI evaluation (failure detection, reproducibility, ranking) 
 
 ### Currently working across
 → AI systems (LLM workflows, agent orchestration, evaluation)  
 → Distributed systems + automation tooling  
 
 ---
+## Featured Project: [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause)
+
+Deterministic multi-agent CI debugging engine.
+
+Most AI CI tools summarize logs.  
+They fail because CI failures are execution systems, not text problems.
+
+ci-rootcause reconstructs execution and identifies the actual root cause.
+
+### What it does
+
+- builds a failure graph from CI logs  
+- detects the first failure (not downstream symptoms)  
+- analyzes diffs to link code changes to breakages  
+- ranks root causes using deterministic scoring  
+- generates evidence-backed fixes (LLM-constrained)  
+- produces structured outputs: `ci-rca.json`, `ci-rca.md`
+
+### LLM Support (Pluggable)
+
+LLMs are used selectively for:
+- explanation  
+- fix suggestions  
+
+Supported providers:
+- Ollama (local models)
+- OpenAI
+- Anthropic
+- Google Gemini
+
+LLMs are never used for scoring or confidence.
+
+### Why it matters
+
+- no hallucinated root causes  
+- reproducible outputs across runs  
+- confidence is computed, not generated  
+- works with both local and hosted models  
+- designed for real CI workflows, not demos  
+
+### Core Principles
+
+- determinism over heuristics  
+- systems over prompts  
+- evaluation before optimization  
+- evidence over plausibility
+
+### Output
+
+- `ci-rca.json` → machine-readable root cause  
+- `ci-rca.md` → human-readable explanation  
+---
 
 ## Open Source Focus (2026)
 
-Actively contributing to:
-- AI infrastructure (LLM tooling, agents, evaluation systems)  
-- Backend infrastructure and developer tooling  
+- contributing to real AI systems (not toy projects)
+- building production-grade agent workflows
+- focusing on correctness, determinism, and evaluation
+- shipping systems that can be reasoned about and verified
 
 Approach:
 → consistent, high-frequency contributions
@@ -45,25 +101,32 @@ Approach:
 
 <!-- PRS:END -->
 
-## Engineering Approach
+## Engineering Principles
 
-- Deterministic > unpredictable  
-- Evidence-based > assumption-driven  
-- Systems > scripts  
-- Debuggable > opaque  
+- Determinism over heuristics where possible  
+- Systems over prompts  
+- Evaluation before optimization  
+- Evidence > plausibility
 
 ---
 
-## Tech Stack
+## Skills
 
-Languages:
-Python · TypeScript · JavaScript · Rust · Solidity  
+### AI Systems
+- LangChain  
+- LangGraph  
+- multi-agent orchestration  
+- LLM tool + context design  
 
-Core Areas:
-- Backend systems  
-- AI systems (LLMs, agent workflows, evaluation)  
-- CI/CD tooling  
-- Distributed systems
+### Infrastructure / Systems
+- Python  
+- TypeScript  
+- Rust  
+
+### Focus Areas
+- agent harness design  
+- evaluation systems  
+- reproducibility + reliability  
 
 ---
 
