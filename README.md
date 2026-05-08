@@ -91,7 +91,7 @@ Approach:
 
 <!-- PRS:START -->
 
-- [Open] [#8940](https://github.com/qdrant/qdrant/pull/8940) Fix 8935 match except dev in `qdrant/qdrant`
+- [Open] [#8957](https://github.com/qdrant/qdrant/pull/8957) Fix 8935 match except dev in `qdrant/qdrant`
 - [Open] [#6535](https://github.com/graphprotocol/graph-node/pull/6535) fix(ethereum): handle trace_filter traces missing result.output via c… in `graphprotocol/graph-node`
 - [Merged] [#4](https://github.com/ibrahim1023/ci-rootcause/pull/4) test: trigger failing workflow_run for app smoke in `ibrahim1023/ci-rootcause`
 - [Open] [#2331](https://github.com/langchain-ai/langgraphjs/pull/2331) fix(langgraph): handle null thread checkpoint in RemoteGraph.getState in `langchain-ai/langgraphjs`
