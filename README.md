@@ -23,7 +23,7 @@ Python, GitHub Actions, OpenAI, Anthropic, Gemini, Ollama, structured pipelines,
 
 ---
 
-### [SheetProof](github.com/ibrahim1023/SheetProof) (In Progress)
+### [SheetProof](https://github.com/ibrahim1023/sheetproof) (In Progress)
 
 Local-first spreadsheet audit and validation system focused on reliability, explainability, and structured analysis workflows.
 
