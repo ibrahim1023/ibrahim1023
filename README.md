@@ -1,80 +1,44 @@
 # Ibrahim Arshad
 
-Building deterministic AI systems, not demos.
+AI Systems Engineer focused on deterministic AI workflows, distributed systems, retrieval-augmented systems, developer infrastructure, and reliability-focused automation. Open-source contributions across AI orchestration, inference infrastructure, and distributed systems ecosystems.
+
+---
+## Current Projects
+
+### [CI-rootcause](github.com/ibrahim1023/ci-rootcause)
+
+Deterministic AI-assisted CI failure investigation platform for GitHub Actions.
+
+#### Core capabilities
+- Workflow execution reconstruction
+- Root-cause ranking with confidence scoring
+- Structured RCA artifact generation
+- Evidence-backed failure analysis
+- AI-assisted fix generation with guardrails
+- GitHub App-first architecture
+- Multi-model orchestration support
+
+#### Stack
+Python, GitHub Actions, OpenAI, Anthropic, Gemini, Ollama, structured pipelines, observability workflows
 
 ---
 
-## About
+### [SheetProof](github.com/ibrahim1023/SheetProof) (In Progress)
 
-Software engineer focused on agentic AI systems and blockchain.
+Local-first spreadsheet audit and validation system focused on reliability, explainability, and structured analysis workflows.
 
-I build:
-- multi-agent systems with structured orchestration  
-- deterministic harnesses for reliability  
-- evaluation-aware AI systems (focused on correctness, not just output)
+#### Focus areas
+- Formula tracing
+- Workbook diffing
+- Assumption tracking
+- Risk classification
+- Structured validation pipelines
+- Evidence-backed spreadsheet analysis
+- Deterministic audit workflows
 
-Focus areas:
-- agent orchestration (LangChain, LangGraph, custom harnesses)
-- context + tool design (ACI-style systems)
-- AI evaluation (failure detection, reproducibility, ranking)
-- Blockchain development
+#### Goal
+Improve reliability and explainability for operational and financial spreadsheet workflows.
 
-### Currently working across
-→ AI systems (LLM workflows, agent orchestration, evaluation)  
-→ Distributed systems + automation tooling  
-
----
-## Featured Project: [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause)
-
-Deterministic multi-agent CI debugging engine.
-
-Most AI CI tools summarize logs.  
-They fail because CI failures are execution systems, not text problems.
-
-ci-rootcause reconstructs execution and identifies the actual root cause.
-
-### What it does
-
-- builds a failure graph from CI logs  
-- detects the first failure (not downstream symptoms)  
-- analyzes diffs to link code changes to breakages  
-- ranks root causes using deterministic scoring  
-- generates evidence-backed fixes (LLM-constrained)  
-- produces structured outputs: `ci-rca.json`, `ci-rca.md`
-
-### LLM Support (Pluggable)
-
-LLMs are used selectively for:
-- explanation  
-- fix suggestions  
-
-Supported providers:
-- Ollama (local models)
-- OpenAI
-- Anthropic
-- Google Gemini
-
-LLMs are never used for scoring or confidence.
-
-### Why it matters
-
-- no hallucinated root causes  
-- reproducible outputs across runs  
-- confidence is computed, not generated  
-- works with both local and hosted models  
-- designed for real CI workflows, not demos  
-
-### Core Principles
-
-- determinism over heuristics  
-- systems over prompts  
-- evaluation before optimization  
-- evidence over plausibility
-
-### Output
-
-- `ci-rca.json` → machine-readable root cause  
-- `ci-rca.md` → human-readable explanation  
 ---
 
 ## Open Source Focus (2026)
@@ -102,41 +66,59 @@ Approach:
 
 <!-- PRS:END -->
 
-## Engineering Principles
-
-- Determinism over heuristics where possible  
-- Systems over prompts  
-- Evaluation before optimization  
-- Evidence > plausibility
-
----
-
-## Skills
+## Technical Areas
 
 ### AI Systems
-- LangChain  
-- LangGraph  
-- multi-agent orchestration  
-- LLM tool + context design
+- Multi-agent systems
+- AI evals
+- Structured outputs
+- LLM orchestration
+- Retrieval workflows
+- Context management
+- AI observability
+
+### Infrastructure
+- Distributed systems
+- Event-driven architectures
+- CI/CD systems
+- Reliability engineering
+- Async execution systems
+- Failure isolation
+- Structured tracing
+
+### Languages
+- Python
+- Rust
+- TypeScript
+- Solidity
+
+### Ecosystems
+- LangGraph
+- CrewAI
+- LangChain
+- Ollama
+- OpenAI
+- Anthropic
+- GitHub Actions
 
 ### Blockchain
 - EVM
-- Smart Contracts
-- DeFi Infrastructure
-- Blockchain Indexing
-- RPC Systems
-- Event Processing
-- Transaction Validation
+- Solidity
+- Stellar
+- RPC systems
+- Transaction indexing
+- Smart contract systems
+---
 
-### Infrastructure / Systems
-- Python  
-- TypeScript  
-- Rust  
+## Engineering Principles
 
-### Focus Areas
-- agent harness design  
-- evaluation systems  
-- reproducibility + reliability  
+- Deterministic over opaque automation
+- Reliability before complexity
+- Structured outputs over unbounded generation
+- Reproducible execution workflows
+- Observability-first system design
+- Evidence-backed automation
+- Guardrailed AI-assisted execution
 
 ---
 
