@@ -6,7 +6,7 @@ Building deterministic AI systems, not demos.
 
 ## About
 
-Software engineer focused on agentic AI systems.
+Software engineer focused on agentic AI systems and blockchain.
 
 I build:
 - multi-agent systems with structured orchestration  
@@ -16,7 +16,8 @@ I build:
 Focus areas:
 - agent orchestration (LangChain, LangGraph, custom harnesses)
 - context + tool design (ACI-style systems)
-- AI evaluation (failure detection, reproducibility, ranking) 
+- AI evaluation (failure detection, reproducibility, ranking)
+- Blockchain development
 
 ### Currently working across
 → AI systems (LLM workflows, agent orchestration, evaluation)  
@@ -116,7 +117,16 @@ Approach:
 - LangChain  
 - LangGraph  
 - multi-agent orchestration  
-- LLM tool + context design  
+- LLM tool + context design
+
+### Blockchain
+- EVM
+- Smart Contracts
+- DeFi Infrastructure
+- Blockchain Indexing
+- RPC Systems
+- Event Processing
+- Transaction Validation
 
 ### Infrastructure / Systems
 - Python  
