@@ -3,6 +3,15 @@
 AI Systems Engineer focused on deterministic AI workflows, distributed systems, retrieval-augmented systems, developer infrastructure, and reliability-focused automation. Open-source contributions across AI orchestration, inference infrastructure, and distributed systems ecosystems.
 
 ---
+## Latest Blog
+
+**[CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)**
+
+I wrote about the design behind [`ci-rootcause`](https://github.com/ibrahim1023/ci-rootcause), a GitHub App-first CI failure analysis system that turns failed GitHub Actions runs into evidence-backed RCA comments and structured artifacts.
+
+The article covers deterministic RCA pipelines, diff-aware root-cause ranking, optional LLM-assisted fix proposals, guarded fix PRs, evals, and reproducibility.
+
+---
 ## Current Projects
 
 ### [CI-rootcause](github.com/ibrahim1023/ci-rootcause)
@@ -126,3 +135,4 @@ Approach:
 
 - [GitHub](https://github.com/ibrahim1023) 
 - [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
+- [Medium](https://medium.com/@ibrahim.a.motiwala)
