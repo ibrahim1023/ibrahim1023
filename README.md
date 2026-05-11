@@ -14,7 +14,7 @@ The article covers deterministic RCA pipelines, diff-aware root-cause ranking, o
 ---
 ## Current Projects
 
-### [CI-rootcause](github.com/ibrahim1023/ci-rootcause)
+### [CI-rootcause](https://github.com/ibrahim1023/ci-rootcause)
 
 Deterministic AI-assisted CI failure investigation platform for GitHub Actions.
 
