@@ -5,9 +5,17 @@ AI Systems Engineer focused on deterministic AI workflows, distributed systems, 
 ---
 ## Latest Blog
 
-**[CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)**
+### [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec)
 
-I wrote about the design behind [`ci-rootcause`](https://github.com/ibrahim1023/ci-rootcause), a GitHub App-first CI failure analysis system that turns failed GitHub Actions runs into evidence-backed RCA comments and structured artifacts.
+Part 2 of my CI debugging series.
+
+I wrote about why AI debugging tools should not just produce confident answers. They need evidence-backed diagnoses, structured artifacts, validation gates, observable decisions, and deterministic guardrails.
+
+### [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)
+
+Part 1 of the series.
+
+I wrote about the design behind [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause), a GitHub App-first CI failure analysis system that turns failed GitHub Actions runs into evidence-backed RCA comments and structured artifacts.
 
 The article covers deterministic RCA pipelines, diff-aware root-cause ranking, optional LLM-assisted fix proposals, guarded fix PRs, evals, and reproducibility.
 
