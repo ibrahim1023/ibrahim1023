@@ -73,13 +73,13 @@ Approach:
 
 <!-- PRS:START -->
 
+- [Open] [#3996](https://github.com/alloy-rs/alloy/pull/3996) fix(provider): poll receipts while waiting for confirmations in `alloy-rs/alloy`
 - [Open] [#24337](https://github.com/paradigmxyz/reth/pull/24337) fix(download): avoid checksum scan during resume startup in `paradigmxyz/reth`
 - [Open] [#8957](https://github.com/qdrant/qdrant/pull/8957) Fix 8935 match except dev in `qdrant/qdrant`
 - [Open] [#6535](https://github.com/graphprotocol/graph-node/pull/6535) fix(ethereum): handle trace_filter traces missing result.output via c… in `graphprotocol/graph-node`
 - [Merged] [#4](https://github.com/ibrahim1023/ci-rootcause/pull/4) test: trigger failing workflow_run for app smoke in `ibrahim1023/ci-rootcause`
 - [Open] [#2331](https://github.com/langchain-ai/langgraphjs/pull/2331) fix(langgraph): handle null thread checkpoint in RemoteGraph.getState in `langchain-ai/langgraphjs`
 - [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
-- [Open] [#21386](https://github.com/run-llama/llama_index/pull/21386) fix(azureaisearch): preserve falsy metadata values in index mapping in `run-llama/llama_index`
 
 <!-- PRS:END -->
 
