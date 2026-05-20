@@ -25,7 +25,7 @@ START_MARKER = "<!-- PRS:START -->"
 END_MARKER = "<!-- PRS:END -->"
 GITHUB_API_BASE = "https://api.github.com"
 DEFAULT_USER = "ibrahim1023"
-DEFAULT_LIMIT = 7
+DEFAULT_LIMIT = 10
 ENV_FILE = ".env"
 
 
@@ -149,7 +149,7 @@ def fetch_search_prs(
             "q": f"type:pr author:{user} {state_filter} sort:updated-desc",
             "sort": "updated",
             "order": "desc",
-            "per_page": limit,
+            "per_page": min(max(limit * 5, 30), 100),
         },
     )
     items = response.get("items", [])
@@ -168,12 +168,19 @@ def fetch_search_prs(
     ]
 
 
+def filter_external_prs(prs: list[PullRequest], user: str) -> list[PullRequest]:
+    user_prefix = f"{user.lower()}/"
+    return [pr for pr in prs if not pr.repository.lower().startswith(user_prefix)]
+
+
 def fetch_open_prs(user: str, limit: int, token: str | None) -> list[PullRequest]:
-    return fetch_search_prs(user, "is:open", limit, token)
+    prs = fetch_search_prs(user, "is:open", limit, token)
+    return filter_external_prs(prs, user)[:limit]
 
 
 def fetch_merged_prs(user: str, limit: int, token: str | None) -> list[PullRequest]:
-    return fetch_search_prs(user, "is:merged", limit, token)
+    prs = fetch_search_prs(user, "is:merged", limit, token)
+    return filter_external_prs(prs, user)[:limit]
 
 
 def parse_github_timestamp(value: str) -> datetime:
