@@ -30,6 +30,29 @@ The article covers deterministic RCA pipelines, diff-aware root-cause ranking, o
 
 ## Current Projects
 
+### [ProofBoard](https://github.com/ibrahim1023/ProofBoard) (In Progress)
+
+Protocol assurance workspace for smart contracts.
+
+ProofBoard helps teams turn protocol intent into executable invariants, verification evidence, and unresolved assumption debt. It is designed around a simple principle: AI proposes, humans approve, and tools produce evidence.
+
+#### Focus areas
+
+- Protocol intent mapping
+- Intent board workflows
+- Invariant discovery and approval
+- Assumption debt tracking
+- Verification evidence ledgers
+- Foundry invariant harness export
+- Foundry result parsing
+- Audit packet export
+- ERC4626-style vault assurance
+- Human-approved, AI-assisted protocol review
+
+#### Goal
+
+Improve smart contract assurance by connecting AI-assisted protocol analysis with human approval, executable invariants, fuzzing evidence, structured verification artifacts, and unresolved risk tracking.
+
 ### [CI-rootcause](https://github.com/ibrahim1023/ci-rootcause)
 
 Deterministic AI-assisted CI failure investigation platform for GitHub Actions.
