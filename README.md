@@ -1,8 +1,15 @@
 # Ibrahim Arshad
 
-AI Systems Engineer focused on deterministic AI workflows, distributed systems, retrieval-augmented systems, developer infrastructure, and reliability-focused automation. Open-source contributions across AI orchestration, inference infrastructure, and distributed systems ecosystems.
+AI Systems and Web3 Infrastructure Engineer focused on deterministic AI workflows, multi-chain blockchain infrastructure, distributed systems, retrieval-augmented systems, developer tooling, and reliability-focused automation.
+
+I work across AI systems and blockchain infrastructure, with experience across Ethereum, Solana, Sui, Stellar, EVM systems, smart contracts, RPC workflows, indexing, transaction processing, and Web3 developer tooling.
+
+My engineering style is agent-assisted but evidence-first: I use AI-assisted development tools to move faster, while keeping human ownership over debugging, validation, tests, code review, and correctness.
+
+I use AI agents as engineering accelerators, not replacements for engineering judgment.
 
 ---
+
 ## Latest Blog
 
 ### [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec)
@@ -20,6 +27,7 @@ I wrote about the design behind [ci-rootcause](https://github.com/ibrahim1023/ci
 The article covers deterministic RCA pipelines, diff-aware root-cause ranking, optional LLM-assisted fix proposals, guarded fix PRs, evals, and reproducibility.
 
 ---
+
 ## Current Projects
 
 ### [CI-rootcause](https://github.com/ibrahim1023/ci-rootcause)
@@ -27,6 +35,7 @@ The article covers deterministic RCA pipelines, diff-aware root-cause ranking, o
 Deterministic AI-assisted CI failure investigation platform for GitHub Actions.
 
 #### Core capabilities
+
 - Workflow execution reconstruction
 - Root-cause ranking with confidence scoring
 - Structured RCA artifact generation
@@ -36,40 +45,48 @@ Deterministic AI-assisted CI failure investigation platform for GitHub Actions.
 - Multi-model orchestration support
 
 #### Stack
+
 Python, GitHub Actions, OpenAI, Anthropic, Gemini, Ollama, structured pipelines, observability workflows
-
----
-
-### [SheetProof](https://github.com/ibrahim1023/sheetproof) (In Progress)
-
-Local-first spreadsheet audit and validation system focused on reliability, explainability, and structured analysis workflows.
-
-#### Focus areas
-- Formula tracing
-- Workbook diffing
-- Assumption tracking
-- Risk classification
-- Structured validation pipelines
-- Evidence-backed spreadsheet analysis
-- Deterministic audit workflows
-
-#### Goal
-Improve reliability and explainability for operational and financial spreadsheet workflows.
 
 ---
 
 ## Open Source Focus (2026)
 
-- contributing to real AI systems (not toy projects)
-- building production-grade agent workflows
-- focusing on correctness, determinism, and evaluation
-- shipping systems that can be reasoned about and verified
+I contribute to real production systems across AI infrastructure, blockchain infrastructure, and distributed systems.
+
+Current focus areas:
+
+- AI orchestration and agent workflows
+- Ethereum infrastructure and Web3 tooling
+- Multi-chain blockchain infrastructure across Ethereum, Solana, Sui, and Stellar
+- Rust-based distributed systems
+- CI/CD and developer infrastructure
+- Reliability, correctness, and failure analysis
+- Deterministic, test-backed engineering workflows
 
 Approach:
-→ consistent, high-frequency contributions
-→ focus on real issues that get merged  
 
-### PRs
+- work on real issues in active repositories
+- prioritize maintainable fixes over surface-level changes
+- use AI-assisted development for speed, context navigation, and iteration
+- keep ownership over validation, tests, debugging, and final implementation quality
+
+---
+
+### Recent Open Source Work
+
+- `alloy-rs/alloy`: fixed pending transaction receipt handling so multi-confirmation waits continue polling receipts instead of timing out after missed watcher notifications.
+- `paradigmxyz/reth`: improved archive download resume startup by avoiding expensive full checksum scans before progress is shown.
+- `qdrant/qdrant`: contributed reliability-focused fixes around query/filter behavior.
+- `graphprotocol/graph-node`: handling Ethereum trace edge cases around missing `result.output`.
+- `langchain-ai/langgraphjs`: improving remote graph state handling around null checkpoints.
+- `crewAIInc/crewAI`: improving structured output parsing and fallback behavior for invalid JSON-like partial matches.
+
+### Web3 Focus
+
+I am actively expanding and contributing across Web3 infrastructure ecosystems, especially Ethereum and Rust-based infrastructure today, while also working with Solana, Sui, Stellar, smart contract systems, transaction workflows, and multi-chain backend integrations.
+
+### Active and Merged Pull Requests
 
 <!-- PRS:START -->
 
@@ -83,9 +100,12 @@ Approach:
 
 <!-- PRS:END -->
 
+---
+
 ## Technical Areas
 
 ### AI Systems
+
 - Multi-agent systems
 - AI evals
 - Structured outputs
@@ -93,8 +113,24 @@ Approach:
 - Retrieval workflows
 - Context management
 - AI observability
+- Agent-assisted engineering workflows
+
+### Blockchain / Web3 Infrastructure
+
+- Ethereum and EVM infrastructure
+- Solana program and transaction workflows
+- Sui / Move-based smart contract systems
+- Stellar smart contract and payment systems
+- Rust-based Web3 tooling
+- RPC and provider systems
+- Transaction lifecycle handling
+- Node infrastructure
+- Indexing and trace processing
+- Smart contract systems
+- Gas, performance, and reliability optimization
 
 ### Infrastructure
+
 - Distributed systems
 - Event-driven architectures
 - CI/CD systems
@@ -102,14 +138,26 @@ Approach:
 - Async execution systems
 - Failure isolation
 - Structured tracing
+- Regression testing
 
 ### Languages
-- Python
+
 - Rust
+- Python
 - TypeScript
 - Solidity
+- Move
 
 ### Ecosystems
+
+- Ethereum
+- Solana
+- Sui
+- Stellar
+- Alloy
+- Reth
+- Graph Node
+- Qdrant
 - LangGraph
 - CrewAI
 - LangChain
@@ -118,29 +166,24 @@ Approach:
 - Anthropic
 - GitHub Actions
 
-### Blockchain
-- EVM
-- Solidity
-- Stellar
-- RPC systems
-- Transaction indexing
-- Smart contract systems
 ---
 
 ## Engineering Principles
 
 - Deterministic over opaque automation
+- Evidence-backed engineering over confident guesses
 - Reliability before complexity
+- Tests and validation before claims of completion
 - Structured outputs over unbounded generation
 - Reproducible execution workflows
 - Observability-first system design
-- Evidence-backed automation
-- Guardrailed AI-assisted execution
+- Human-owned, AI-assisted development
+- Guardrailed automation for high-impact systems
 
 ---
 
 ## Contact
 
-- [GitHub](https://github.com/ibrahim1023) 
+- [GitHub](https://github.com/ibrahim1023)
 - [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
 - [Medium](https://medium.com/@ibrahim.a.motiwala)
