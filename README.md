@@ -98,8 +98,6 @@ Approach:
 
 ### Recent Open Source Work
 
-### Web3 Focus
-
 I am actively expanding and contributing across Web3 infrastructure ecosystems, especially Ethereum and Rust-based infrastructure today, while also working with Solana, Sui, Stellar, smart contract systems, transaction workflows, and multi-chain backend integrations.
 
 <!-- PRS:START -->
