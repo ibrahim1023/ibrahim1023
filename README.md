@@ -102,14 +102,14 @@ I am actively expanding and contributing across Web3 infrastructure ecosystems, 
 
 <!-- PRS:START -->
 
+- [Merged] [#2331](https://github.com/langchain-ai/langgraphjs/pull/2331) fix(langgraph): handle null thread checkpoint in RemoteGraph.getState in `langchain-ai/langgraphjs`
+- [Open] [#21336](https://github.com/run-llama/llama_index/pull/21336) fix(elasticsearch): split sync and async store paths in `run-llama/llama_index`
 - [Open] [#3996](https://github.com/alloy-rs/alloy/pull/3996) fix(provider): poll receipts while waiting for confirmations in `alloy-rs/alloy`
 - [Open] [#24337](https://github.com/paradigmxyz/reth/pull/24337) fix(download): avoid checksum scan during resume startup in `paradigmxyz/reth`
 - [Open] [#8957](https://github.com/qdrant/qdrant/pull/8957) Fix 8935 match except dev in `qdrant/qdrant`
 - [Open] [#6535](https://github.com/graphprotocol/graph-node/pull/6535) fix(ethereum): handle trace_filter traces missing result.output via c… in `graphprotocol/graph-node`
-- [Open] [#2331](https://github.com/langchain-ai/langgraphjs/pull/2331) fix(langgraph): handle null thread checkpoint in RemoteGraph.getState in `langchain-ai/langgraphjs`
 - [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
 - [Open] [#21386](https://github.com/run-llama/llama_index/pull/21386) fix(azureaisearch): preserve falsy metadata values in index mapping in `run-llama/llama_index`
-- [Open] [#21336](https://github.com/run-llama/llama_index/pull/21336) fix(elasticsearch): split sync and async store paths in `run-llama/llama_index`
 - [Merged] [#39169](https://github.com/vllm-project/vllm/pull/39169) fix(gdn): Align prefill warmup with real prefill path in `vllm-project/vllm`
 - [Open] [#10](https://github.com/logos-co/logos-lez-rln/pull/10) Fix #9: update guest code for current `nssa_core` program API in `logos-co/logos-lez-rln`
 
