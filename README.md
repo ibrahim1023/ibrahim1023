@@ -1,6 +1,6 @@
 # Ibrahim Arshad
 
-Blockchain Infrastructure Engineer focused on protocol engineering, verification-oriented tooling, and Rust systems work across Ethereum, Solana, Sui, and Stellar, with active AI engineering work in reliability and agentic systems.
+Blockchain Infrastructure Engineer focused on protocol engineering, verification-oriented tooling, and Rust systems work across Ethereum, Solana, Sui, and Stellar, with active **AI engineering** work in reliability and agentic systems.
 
 I build infrastructure and workflows for protocol correctness and production AI reliability: smart contract invariants, assumption tracking, audit readiness, reproducible verification evidence, and evidence-first AI system evaluation.
 
