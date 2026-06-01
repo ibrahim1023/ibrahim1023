@@ -1,104 +1,30 @@
 # Ibrahim Arshad
 
-AI Systems and Web3 Infrastructure Engineer focused on deterministic AI workflows, multi-chain blockchain infrastructure, distributed systems, retrieval-augmented systems, developer tooling, and reliability-focused automation.
+Blockchain Infrastructure Engineer focused on protocol engineering, verification-oriented tooling, and Rust systems work across Ethereum, Solana, Sui, and Stellar, with active AI engineering work in reliability and agentic systems.
 
-I work across AI systems and blockchain infrastructure, with experience across Ethereum, Solana, Sui, Stellar, EVM systems, smart contracts, RPC workflows, indexing, transaction processing, and Web3 developer tooling.
+I build infrastructure and workflows for protocol correctness and production AI reliability: smart contract invariants, assumption tracking, audit readiness, reproducible verification evidence, and evidence-first AI system evaluation.
 
-My engineering style is agent-assisted but evidence-first: I use AI-assisted development tools to move faster, while keeping human ownership over debugging, validation, tests, code review, and correctness.
-
-I use AI agents as engineering accelerators, not replacements for engineering judgment.
+Core stack: Rust, Solidity, Move, Python.
 
 ---
 
-## Latest Blog
+## Current Focus
 
-### [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec)
-
-Part 2 of my CI debugging series.
-
-I wrote about why AI debugging tools should not just produce confident answers. They need evidence-backed diagnoses, structured artifacts, validation gates, observable decisions, and deterministic guardrails.
-
-### [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)
-
-Part 1 of the series.
-
-I wrote about the design behind [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause), a GitHub App-first CI failure analysis system that turns failed GitHub Actions runs into evidence-backed RCA comments and structured artifacts.
-
-The article covers deterministic RCA pipelines, diff-aware root-cause ranking, optional LLM-assisted fix proposals, guarded fix PRs, evals, and reproducibility.
+- Building [ProofBoard](https://github.com/ibrahim1023/ProofBoard)
+- Contributing to `paradigmxyz/reth`
+- Contributing to `alloy-rs/alloy`
+- Exploring protocol verification workflows
+- Smart contract correctness and invariant-driven development
+- Multi-chain infrastructure across Ethereum, Solana, Sui, and Stellar
+- zkVM and proof-system research
 
 ---
 
-## Current Projects
-
-### [ProofBoard](https://github.com/ibrahim1023/ProofBoard) (In Progress)
-
-Protocol assurance workspace for smart contracts.
-
-ProofBoard helps teams turn protocol intent into executable invariants, verification evidence, and unresolved assumption debt. It is designed around a simple principle: AI proposes, humans approve, and tools produce evidence.
-
-#### Focus areas
-
-- Protocol intent mapping
-- Intent board workflows
-- Invariant discovery and approval
-- Assumption debt tracking
-- Verification evidence ledgers
-- Foundry invariant harness export
-- Foundry result parsing
-- Audit packet export
-- ERC4626-style vault assurance
-- Human-approved, AI-assisted protocol review
-
-#### Goal
-
-Improve smart contract assurance by connecting AI-assisted protocol analysis with human approval, executable invariants, fuzzing evidence, structured verification artifacts, and unresolved risk tracking.
-
-### [CI-rootcause](https://github.com/ibrahim1023/ci-rootcause)
-
-Deterministic AI-assisted CI failure investigation platform for GitHub Actions.
-
-#### Core capabilities
-
-- Workflow execution reconstruction
-- Root-cause ranking with confidence scoring
-- Structured RCA artifact generation
-- Evidence-backed failure analysis
-- AI-assisted fix generation with guardrails
-- GitHub App-first architecture
-- Multi-model orchestration support
-
-#### Stack
-
-Python, GitHub Actions, OpenAI, Anthropic, Gemini, Ollama, structured pipelines, observability workflows
-
----
-
-## Open Source Focus (2026)
-
-I contribute to real production systems across AI infrastructure, blockchain infrastructure, and distributed systems.
-
-Current focus areas:
-
-- AI orchestration and agent workflows
-- Ethereum infrastructure and Web3 tooling
-- Multi-chain blockchain infrastructure across Ethereum, Solana, Sui, and Stellar
-- Rust-based distributed systems
-- CI/CD and developer infrastructure
-- Reliability, correctness, and failure analysis
-- Deterministic, test-backed engineering workflows
-
-Approach:
-
-- work on real issues in active repositories
-- prioritize maintainable fixes over surface-level changes
-- use AI-assisted development for speed, context navigation, and iteration
-- keep ownership over validation, tests, debugging, and final implementation quality
-
----
+## Open Source Contributions
 
 ### Recent Open Source Work
 
-I am actively expanding and contributing across Web3 infrastructure ecosystems, especially Ethereum and Rust-based infrastructure today, while also working with Solana, Sui, Stellar, smart contract systems, transaction workflows, and multi-chain backend integrations.
+Auto-fetched open and merged PRs across external projects:
 
 <!-- PRS:START -->
 
@@ -115,85 +41,118 @@ I am actively expanding and contributing across Web3 infrastructure ecosystems, 
 
 <!-- PRS:END -->
 
+### Blockchain Infrastructure
+
+- `paradigmxyz/reth`: improved archive download resume startup by removing heavy checksum scanning before progress begins ([#24337](https://github.com/paradigmxyz/reth/pull/24337)).
+- `alloy-rs/alloy`: fixed confirmation wait flow so pending transaction receipt polling continues reliably ([#3996](https://github.com/alloy-rs/alloy/pull/3996)).
+
+### AI Infrastructure
+
+- `langchain-ai/langgraphjs`: fixed remote graph state handling for null checkpoints ([#2331](https://github.com/langchain-ai/langgraphjs/pull/2331)).
+- `vllm-project/vllm`: aligned prefill warmup path with real prefill execution behavior ([#39169](https://github.com/vllm-project/vllm/pull/39169)).
+- `crewAIInc/crewAI`: improved structured output parsing fallback for invalid JSON-like partial matches ([#5461](https://github.com/crewAIInc/crewAI/pull/5461)).
+
 ---
 
-## Technical Areas
+## Featured Projects
 
-### AI Systems
+### 1) [ProofBoard](https://github.com/ibrahim1023/ProofBoard)
 
-- Multi-agent systems
-- AI evals
-- Structured outputs
-- LLM orchestration
-- Retrieval workflows
-- Context management
-- AI observability
-- Agent-assisted engineering workflows
+ProofBoard is a protocol correctness workspace for smart contracts.
 
-### Blockchain / Web3 Infrastructure
+Problem: many protocol failures come from mismatched assumptions, unstated invariants, and weak verification workflows rather than obvious syntax bugs. Traditional audits are necessary but point-in-time, and they do not always encode evolving protocol intent as executable checks.
 
-- Ethereum and EVM infrastructure
-- Solana program and transaction workflows
-- Sui / Move-based smart contract systems
-- Stellar smart contract and payment systems
-- Rust-based Web3 tooling
-- RPC and provider systems
-- Transaction lifecycle handling
-- Node infrastructure
-- Indexing and trace processing
-- Smart contract systems
-- Gas, performance, and reliability optimization
+ProofBoard turns protocol intent into testable artifacts:
 
-### Infrastructure
+- explicit protocol assumptions
+- executable invariants
+- verification workflows tied to those invariants
+- evidence ledgers for verification runs
+- audit-readiness packets for review and handoff
 
-- Distributed systems
-- Event-driven architectures
-- CI/CD systems
-- Reliability engineering
-- Async execution systems
-- Failure isolation
-- Structured tracing
-- Regression testing
+Why this matters in DeFi:
 
-### Languages
+- protocol safety depends on behavior under adversarial conditions
+- correctness requires continuous validation, not one-time review
+- teams need traceable evidence connecting intent to test outcomes
+
+Long-term vision: make verification-oriented protocol development the default workflow from design to deployment.
+
+### 2) [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause)
+
+Deterministic CI failure investigation for GitHub Actions with evidence-first RCA artifacts, guarded fix generation, and reproducible validation loops.
+
+### 3) AI Reliability Tooling
+
+Evaluation-oriented AI engineering work focused on deterministic workflows, guarded automation, and reproducible validation for agent-assisted systems.
+
+---
+
+## Technical Writing
+
+### AI Systems and Reliability
+
+- [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec)
+- [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)
+
+Planned writing themes:
+
+- evaluation-first AI engineering
+- deterministic agent workflows
+- CI reliability and evidence-backed RCA
+- guardrails and validation in AI-assisted development
+
+---
+
+## Skills and Interests
+
+### Blockchain
 
 - Rust
-- Python
-- TypeScript
 - Solidity
 - Move
-
-### Ecosystems
-
+- Stellar
 - Ethereum
 - Solana
 - Sui
-- Stellar
-- Alloy
+
+### Protocols
+
+- Lending protocols
+- DEX infrastructure
+- Governance systems
+- Vault architectures
+- Smart contract security
+
+### Infrastructure
+
 - Reth
-- Graph Node
-- Qdrant
+- Alloy
+- RPC systems
+- Blockchain indexing
+- Distributed systems
+- Observability
+
+### AI
+
 - LangGraph
-- CrewAI
 - LangChain
-- Ollama
-- OpenAI
-- Anthropic
-- GitHub Actions
+- vLLM
+- Agent systems
+- AI reliability
 
 ---
 
-## Engineering Principles
+## Research Interests
 
-- Deterministic over opaque automation
-- Evidence-backed engineering over confident guesses
-- Reliability before complexity
-- Tests and validation before claims of completion
-- Structured outputs over unbounded generation
-- Reproducible execution workflows
-- Observability-first system design
-- Human-owned, AI-assisted development
-- Guardrailed automation for high-impact systems
+- Protocol correctness
+- Verification-oriented development
+- Smart contract security
+- Ethereum infrastructure
+- zkVMs
+- Formal verification
+- Distributed systems
+- AI reliability
 
 ---
 
