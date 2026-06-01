@@ -1,28 +1,31 @@
 # Ibrahim Arshad
 
-Blockchain Infrastructure Engineer focused on protocol engineering, verification-oriented tooling, and Rust systems work across Ethereum, Solana, Sui, and Stellar, with active **AI engineering** work in reliability and agentic systems.
+Systems Engineer focused on AI infrastructure, blockchain protocols, and verifiable computation.
 
-I build infrastructure and workflows for protocol correctness and production AI reliability: smart contract invariants, assumption tracking, audit readiness, reproducible verification evidence, and evidence-first AI system evaluation.
+I build systems where correctness and reliability matter: LLM orchestration, retrieval workflows, evaluation pipelines, backend infrastructure, protocol tooling, and production observability. My work spans production AI systems and blockchain infrastructure across Ethereum, Solana, Sui, and Stellar.
 
-Core stack: Rust, Solidity, Move, Python.
+I focus on evidence-driven engineering: smart contract invariants, assumption tracking, audit readiness, reproducible verification artifacts, and evaluation workflows that make AI system behavior measurable instead of assumed.
+
+Core stack: Rust, Solidity, Python.
 
 ---
 
 ## Current Focus
 
-- Building [ProofBoard](https://github.com/ibrahim1023/ProofBoard)
-- Contributing to `paradigmxyz/reth`
-- Contributing to `alloy-rs/alloy`
-- Exploring protocol verification workflows
-- Smart contract correctness and invariant-driven development
+- Building reliability-focused AI and protocol infrastructure
+- Agentic systems, deterministic workflows, evaluation pipelines, and evidence-backed automation
+- Protocol correctness, smart contract invariants, audit readiness, and verification-oriented tooling
+- Rust systems work across blockchain clients, protocol infrastructure, and backend services
 - Multi-chain infrastructure across Ethereum, Solana, Sui, and Stellar
-- zkVM and proof-system research
+- Open-source contributions across AI infrastructure, blockchain tooling, and distributed systems
 
 ---
 
 ## Open Source Contributions
 
 ### Recent Open Source Work
+
+My open-source work spans AI infrastructure, vector databases, agent frameworks, blockchain clients, protocol tooling, and distributed systems.
 
 Auto-fetched open and merged PRs across external projects:
 
@@ -95,7 +98,7 @@ Evaluation-oriented AI engineering work focused on deterministic workflows, guar
 - [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec)
 - [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)
 
-Planned writing themes:
+Writing focus:
 
 - evaluation-first AI engineering
 - deterministic agent workflows
@@ -104,10 +107,19 @@ Planned writing themes:
 
 ---
 
-## Skills and Interests
+## Technical Areas
 
-### Blockchain
+### AI Infrastructure
+- LLM orchestration
+- Agent systems
+- RAG / retrieval workflows
+- Evaluation pipelines
+- AI reliability
+- LangGraph
+- LangChain
+- vLLM
 
+### Blockchain Infrastructure
 - Rust
 - Solidity
 - Move
@@ -115,31 +127,17 @@ Planned writing themes:
 - Ethereum
 - Solana
 - Sui
-
-### Protocols
-
-- Lending protocols
-- DEX infrastructure
-- Governance systems
-- Vault architectures
-- Smart contract security
-
-### Infrastructure
-
 - Reth
 - Alloy
-- RPC systems
-- Blockchain indexing
+
+### Systems and Reliability
 - Distributed systems
+- Backend infrastructure
 - Observability
-
-### AI
-
-- LangGraph
-- LangChain
-- vLLM
-- Agent systems
-- AI reliability
+- CI/CD
+- RPC systems
+- Indexing
+- Reproducible validation
 
 ---
 
