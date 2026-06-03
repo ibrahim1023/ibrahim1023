@@ -2,22 +2,7 @@
 
 Systems Engineer focused on AI infrastructure, blockchain protocols, and verifiable computation.
 
-I build systems where correctness and reliability matter: LLM orchestration, retrieval workflows, evaluation pipelines, backend infrastructure, protocol tooling, and production observability. My work spans production AI systems and blockchain infrastructure across Ethereum, Solana, Sui, and Stellar.
-
-I focus on evidence-driven engineering: smart contract invariants, assumption tracking, audit readiness, reproducible verification artifacts, and evaluation workflows that make AI system behavior measurable instead of assumed.
-
 Core stack: Rust, Solidity, Python.
-
----
-
-## Current Focus
-
-- Building reliability-focused AI and protocol infrastructure
-- Agentic systems, deterministic workflows, evaluation pipelines, and evidence-backed automation
-- Protocol correctness, smart contract invariants, audit readiness, and verification-oriented tooling
-- Rust systems work across blockchain clients, protocol infrastructure, and backend services
-- Multi-chain infrastructure across Ethereum, Solana, Sui, and Stellar
-- Open-source contributions across AI infrastructure, blockchain tooling, and distributed systems
 
 ---
 
@@ -26,8 +11,6 @@ Core stack: Rust, Solidity, Python.
 ### Recent Open Source Work
 
 My open-source work spans AI infrastructure, vector databases, agent frameworks, blockchain clients, protocol tooling, and distributed systems.
-
-Auto-fetched open and merged PRs across external projects:
 
 <!-- PRS:START -->
 
@@ -43,18 +26,6 @@ Auto-fetched open and merged PRs across external projects:
 - [Open] [#10](https://github.com/logos-co/logos-lez-rln/pull/10) Fix #9: update guest code for current `nssa_core` program API in `logos-co/logos-lez-rln`
 
 <!-- PRS:END -->
-
-### Blockchain Infrastructure
-
-- `paradigmxyz/reth`: improved archive download resume startup by removing heavy checksum scanning before progress begins ([#24337](https://github.com/paradigmxyz/reth/pull/24337)).
-- `alloy-rs/alloy`: fixed confirmation wait flow so pending transaction receipt polling continues reliably ([#3996](https://github.com/alloy-rs/alloy/pull/3996)).
-
-### AI Infrastructure
-
-- `langchain-ai/langgraphjs`: fixed remote graph state handling for null checkpoints ([#2331](https://github.com/langchain-ai/langgraphjs/pull/2331)).
-- `vllm-project/vllm`: aligned prefill warmup path with real prefill execution behavior ([#39169](https://github.com/vllm-project/vllm/pull/39169)).
-- `crewAIInc/crewAI`: improved structured output parsing fallback for invalid JSON-like partial matches ([#5461](https://github.com/crewAIInc/crewAI/pull/5461)).
-
 ---
 
 ## Featured Projects
@@ -84,10 +55,6 @@ Long-term vision: make verification-oriented protocol development the default wo
 ### 2) [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause)
 
 Deterministic CI failure investigation for GitHub Actions with evidence-first RCA artifacts, guarded fix generation, and reproducible validation loops.
-
-### 3) AI Reliability Tooling
-
-Evaluation-oriented AI engineering work focused on deterministic workflows, guarded automation, and reproducible validation for agent-assisted systems.
 
 ---
 
@@ -124,33 +91,6 @@ Writing focus:
 - Solidity
 - Move
 - Stellar
-- Ethereum
-- Solana
-- Sui
-- Reth
-- Alloy
-
-### Systems and Reliability
-- Distributed systems
-- Backend infrastructure
-- Observability
-- CI/CD
-- RPC systems
-- Indexing
-- Reproducible validation
-
----
-
-## Research Interests
-
-- Protocol correctness
-- Verification-oriented development
-- Smart contract security
-- Ethereum infrastructure
-- zkVMs
-- Formal verification
-- Distributed systems
-- AI reliability
 
 ---
 
