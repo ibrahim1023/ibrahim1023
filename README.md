@@ -14,6 +14,7 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 
 <!-- PRS:START -->
 
+- [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
 - [Open] [#21386](https://github.com/run-llama/llama_index/pull/21386) fix(azureaisearch): preserve falsy metadata values in index mapping in `run-llama/llama_index`
 - [Open] [#242](https://github.com/0xsoniclabs/aida/pull/242) fix(executor): release substate iterator on early exit in `0xsoniclabs/aida`
 - [Open] [#21336](https://github.com/run-llama/llama_index/pull/21336) fix(elasticsearch): split sync and async store paths in `run-llama/llama_index`
@@ -22,7 +23,6 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 - [Open] [#24337](https://github.com/paradigmxyz/reth/pull/24337) fix(download): avoid checksum scan during resume startup in `paradigmxyz/reth`
 - [Open] [#8957](https://github.com/qdrant/qdrant/pull/8957) Fix 8935 match except dev in `qdrant/qdrant`
 - [Open] [#6535](https://github.com/graphprotocol/graph-node/pull/6535) fix(ethereum): handle trace_filter traces missing result.output via c… in `graphprotocol/graph-node`
-- [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
 - [Merged] [#39169](https://github.com/vllm-project/vllm/pull/39169) fix(gdn): Align prefill warmup with real prefill path in `vllm-project/vllm`
 
 <!-- PRS:END -->
@@ -62,8 +62,15 @@ Deterministic CI failure investigation for GitHub Actions with evidence-first RC
 
 ### AI Systems and Reliability
 
-- [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec)
-- [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/p/e8ab5db074cd)
+<!-- MEDIUM:START -->
+
+- [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec) - May 14, 2026
+- [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/@ibrahim.a.motiwala/ci-failures-are-not-text-problems-they-are-execution-problems-e8ab5db074cd) - May 11, 2026
+- [From Math to Code: Building Logistic Regression from Scratch (Binary Classification Example)](https://medium.com/@ibrahim.a.motiwala/from-math-to-code-building-logistic-regression-from-scratch-binary-classification-example-b5e51dd9e05b) - September 22, 2025
+- [From Math to Code: Building Linear Regression with Gradient Descent (Housing Prices Example)](https://medium.com/@ibrahim.a.motiwala/from-math-to-code-building-linear-regression-with-gradient-descent-housing-prices-example-9b98b58fb9db) - September 15, 2025
+- [Building a RAG System for Medical Information Retrieval](https://medium.com/@ibrahim.a.motiwala/building-a-rag-system-for-medical-information-retrieval-5f5e5afba705) - September 10, 2025
+
+<!-- MEDIUM:END -->
 
 Writing focus:
 

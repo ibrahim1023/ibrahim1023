@@ -1,4 +1,4 @@
-name: Update README PRs
+name: Update README Content
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Update README PR section
+      - name: Update README content
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 update_readme_prs.py --readme README.md
@@ -33,5 +33,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update README PR section"
+          git commit -m "Update README content"
           git push
