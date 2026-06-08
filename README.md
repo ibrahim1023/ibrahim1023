@@ -2,7 +2,7 @@
 
 Systems Engineer focused on AI infrastructure, blockchain protocols, and verifiable computation.
 
-Core stack: Rust, Solidity, Python.
+Core stack: Rust, Solidity, Python, Go.
 
 ---
 
@@ -87,10 +87,10 @@ Writing focus:
 - vLLM
 
 ### Blockchain Infrastructure
-- Rust
-- Solidity
-- Move
+- EVM
+- Solana
 - Stellar
+- SUI
 
 ---
 
