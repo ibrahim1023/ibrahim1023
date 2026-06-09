@@ -22,8 +22,8 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 - [Open] [#3996](https://github.com/alloy-rs/alloy/pull/3996) fix(provider): poll receipts while waiting for confirmations in `alloy-rs/alloy`
 - [Open] [#24337](https://github.com/paradigmxyz/reth/pull/24337) fix(download): avoid checksum scan during resume startup in `paradigmxyz/reth`
 - [Open] [#8957](https://github.com/qdrant/qdrant/pull/8957) Fix 8935 match except dev in `qdrant/qdrant`
-- [Open] [#6535](https://github.com/graphprotocol/graph-node/pull/6535) fix(ethereum): handle trace_filter traces missing result.output via c… in `graphprotocol/graph-node`
 - [Merged] [#39169](https://github.com/vllm-project/vllm/pull/39169) fix(gdn): Align prefill warmup with real prefill path in `vllm-project/vllm`
+- [Open] [#10](https://github.com/logos-co/logos-lez-rln/pull/10) Fix #9: update guest code for current `nssa_core` program API in `logos-co/logos-lez-rln`
 
 <!-- PRS:END -->
 ---
@@ -64,11 +64,11 @@ Deterministic CI failure investigation for GitHub Actions with evidence-first RC
 
 <!-- MEDIUM:START -->
 
+- [AI Should Not Audit Smart Contracts. It Should Help Build Evidence.](https://medium.com/@ibrahim.a.motiwala/ai-should-not-audit-smart-contracts-it-should-help-build-evidence-7f095b691f05) - June 9, 2026
 - [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec) - May 14, 2026
 - [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/@ibrahim.a.motiwala/ci-failures-are-not-text-problems-they-are-execution-problems-e8ab5db074cd) - May 11, 2026
 - [From Math to Code: Building Logistic Regression from Scratch (Binary Classification Example)](https://medium.com/@ibrahim.a.motiwala/from-math-to-code-building-logistic-regression-from-scratch-binary-classification-example-b5e51dd9e05b) - September 22, 2025
 - [From Math to Code: Building Linear Regression with Gradient Descent (Housing Prices Example)](https://medium.com/@ibrahim.a.motiwala/from-math-to-code-building-linear-regression-with-gradient-descent-housing-prices-example-9b98b58fb9db) - September 15, 2025
-- [Building a RAG System for Medical Information Retrieval](https://medium.com/@ibrahim.a.motiwala/building-a-rag-system-for-medical-information-retrieval-5f5e5afba705) - September 10, 2025
 
 <!-- MEDIUM:END -->
 
