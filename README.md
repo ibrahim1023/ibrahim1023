@@ -14,7 +14,6 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 
 <!-- PRS:START -->
 
-- [Open] [#24337](https://github.com/paradigmxyz/reth/pull/24337) fix(download): avoid checksum scan during resume startup in `paradigmxyz/reth`
 - [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
 - [Open] [#242](https://github.com/0xsoniclabs/aida/pull/242) fix(executor): release substate iterator on early exit in `0xsoniclabs/aida`
 - [Merged] [#2331](https://github.com/langchain-ai/langgraphjs/pull/2331) fix(langgraph): handle null thread checkpoint in RemoteGraph.getState in `langchain-ai/langgraphjs`
@@ -24,6 +23,7 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 - [Open] [#10](https://github.com/logos-co/logos-lez-rln/pull/10) Fix #9: update guest code for current `nssa_core` program API in `logos-co/logos-lez-rln`
 - [Merged] [#2](https://github.com/ondecentral/Lucia-SDK-Experimental/pull/2) Add Get metamask address after connection in `ondecentral/Lucia-SDK-Experimental`
 - [Merged] [#21](https://github.com/Fantom-foundation/Artion-Contracts/pull/21) Update return minBid in `Fantom-foundation/Artion-Contracts`
+- [Merged] [#24](https://github.com/Fantom-foundation/Artion-Contracts/pull/24) Update hardhat config in `Fantom-foundation/Artion-Contracts`
 
 <!-- PRS:END -->
 ---
