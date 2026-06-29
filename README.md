@@ -30,17 +30,7 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 
 ## Featured Projects
 
-### 1) [ProofFlow L2](https://github.com/ibrahim1023/proofflow)
-
-Rust-based zk rollup prototype for verifiable AI-agent workflows.
-
-ProofFlow lets untrusted AI agents propose actions, while deterministic policies, evidence commitments, workflow state transitions, and zkVM proofs decide what can settle. The first demo is a mock DeFi vault rebalance that proves the workflow followed its declared rules before accepting a new state root on-chain.
-
-**Focus:** verifiable agent workflows, zk state transitions, policy-gated execution, proof receipts, and blockchain settlement.
-
-**Stack:** Rust, SP1 zkVM, Solidity, Foundry, Next.js, Python/Ollama
-
-### 2) [ProofBoard](https://github.com/ibrahim1023/ProofBoard)
+### 1) [ProofBoard](https://github.com/ibrahim1023/ProofBoard)
 
 ProofBoard is a protocol correctness workspace for smart contracts.
 
@@ -61,6 +51,10 @@ Why this matters in DeFi:
 - teams need traceable evidence connecting intent to test outcomes
 
 Long-term vision: make verification-oriented protocol development the default workflow from design to deployment.
+
+### 2) [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause)
+
+Deterministic CI failure investigation for GitHub Actions with evidence-first RCA artifacts, guarded fix generation, and reproducible validation loops.
 
 ---
 
