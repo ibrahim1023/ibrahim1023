@@ -1,8 +1,8 @@
 # Ibrahim Arshad
 
-Systems Engineer focused on AI infrastructure, blockchain protocols, and verifiable computation.
+Systems Engineer building AI infrastructure, blockchain protocols, and verifiable systems.
 
-Core stack: Rust, Solidity, Python, Go.
+Core stack: Rust, Python, Go, Solidity.
 
 ---
 
