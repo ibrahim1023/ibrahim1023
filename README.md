@@ -6,6 +6,16 @@ Core stack: Rust, Python, Go, Solidity.
 
 ---
 
+## Currently Building
+
+### [Vault Steward](https://github.com/ibrahim1023/vault-steward)
+
+Actively building a local-first Obsidian plugin that continuously audits vault integrity. It uses specialized local AI agents to detect contradictions, stale notes, duplicate entities, broken references, orphaned tasks, schema violations, and unresolved decisions.
+
+Policy-governed, evidence-first, fully offline, and designed to run only on user-owned vault data with local/open-source models.
+
+---
+
 ## Open Source Contributions
 
 ### Recent Open Source Work
@@ -26,36 +36,6 @@ My open-source work spans AI infrastructure, vector databases, agent frameworks,
 - [Merged] [#24](https://github.com/Fantom-foundation/Artion-Contracts/pull/24) Update hardhat config in `Fantom-foundation/Artion-Contracts`
 
 <!-- PRS:END -->
----
-
-## Featured Projects
-
-### 1) [ProofBoard](https://github.com/ibrahim1023/ProofBoard)
-
-ProofBoard is a protocol correctness workspace for smart contracts.
-
-Problem: many protocol failures come from mismatched assumptions, unstated invariants, and weak verification workflows rather than obvious syntax bugs. Traditional audits are necessary but point-in-time, and they do not always encode evolving protocol intent as executable checks.
-
-ProofBoard turns protocol intent into testable artifacts:
-
-- explicit protocol assumptions
-- executable invariants
-- verification workflows tied to those invariants
-- evidence ledgers for verification runs
-- audit-readiness packets for review and handoff
-
-Why this matters in DeFi:
-
-- protocol safety depends on behavior under adversarial conditions
-- correctness requires continuous validation, not one-time review
-- teams need traceable evidence connecting intent to test outcomes
-
-Long-term vision: make verification-oriented protocol development the default workflow from design to deployment.
-
-### 2) [ci-rootcause](https://github.com/ibrahim1023/ci-rootcause)
-
-Deterministic CI failure investigation for GitHub Actions with evidence-first RCA artifacts, guarded fix generation, and reproducible validation loops.
-
 ---
 
 ## Technical Writing
