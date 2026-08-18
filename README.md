@@ -6,8 +6,6 @@ Core stack: Rust, Python, Go, Solidity.
 
 ---
 
-## Currently Building
-
 ### [Vault Steward](https://github.com/ibrahim1023/vault-steward)
 
 Actively building a local-first Obsidian plugin that continuously audits vault integrity. It uses specialized local AI agents to detect contradictions, stale notes, duplicate entities, broken references, orphaned tasks, schema violations, and unresolved decisions.
