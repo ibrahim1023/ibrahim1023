@@ -1,86 +1,47 @@
 # Ibrahim Arshad
 
-Systems Engineer building AI infrastructure, blockchain protocols, and verifiable systems.
+AI Systems Engineer building agent infrastructure, evaluation systems, and production-oriented AI tooling.
 
-Core stack: Rust, Python, Go, Solidity.
+## SettleDiff
 
----
+[GitHub](https://github.com/ibrahim1023/SettleDiff)
 
-### [Vault Steward](https://github.com/ibrahim1023/vault-steward)
+A live purchase verification system for agentic services.
 
-Actively building a local-first Obsidian plugin that continuously audits vault integrity. It uses specialized local AI agents to detect contradictions, stale notes, duplicate entities, broken references, orphaned tasks, schema violations, and unresolved decisions.
+SettleDiff executes real paid requests against marketplace services, captures execution evidence, uses Context.dev for external web evidence, and uses Hyperfusion to explain and interpret the resulting run.
 
-Policy-governed, evidence-first, fully offline, and designed to run only on user-owned vault data with local/open-source models.
-
----
-
-## Open Source Contributions
-
-### Recent Open Source Work
-
-My open-source work spans AI infrastructure, vector databases, agent frameworks, blockchain clients, protocol tooling, and distributed systems.
-
-<!-- PRS:START -->
-
-- [Open] [#5461](https://github.com/crewAIInc/crewAI/pull/5461) fix(converter): fall back on invalid JSON-like partial matches in `crewAIInc/crewAI`
-- [Open] [#242](https://github.com/0xsoniclabs/aida/pull/242) fix(executor): release substate iterator on early exit in `0xsoniclabs/aida`
-- [Merged] [#2331](https://github.com/langchain-ai/langgraphjs/pull/2331) fix(langgraph): handle null thread checkpoint in RemoteGraph.getState in `langchain-ai/langgraphjs`
-- [Open] [#3996](https://github.com/alloy-rs/alloy/pull/3996) fix(provider): poll receipts while waiting for confirmations in `alloy-rs/alloy`
-- [Open] [#8957](https://github.com/qdrant/qdrant/pull/8957) Fix 8935 match except dev in `qdrant/qdrant`
-- [Merged] [#39169](https://github.com/vllm-project/vllm/pull/39169) fix(gdn): Align prefill warmup with real prefill path in `vllm-project/vllm`
-- [Open] [#10](https://github.com/logos-co/logos-lez-rln/pull/10) Fix #9: update guest code for current `nssa_core` program API in `logos-co/logos-lez-rln`
-- [Merged] [#2](https://github.com/ondecentral/Lucia-SDK-Experimental/pull/2) Add Get metamask address after connection in `ondecentral/Lucia-SDK-Experimental`
-- [Merged] [#21](https://github.com/Fantom-foundation/Artion-Contracts/pull/21) Update return minBid in `Fantom-foundation/Artion-Contracts`
-- [Merged] [#24](https://github.com/Fantom-foundation/Artion-Contracts/pull/24) Update hardhat config in `Fantom-foundation/Artion-Contracts`
-
-<!-- PRS:END -->
----
-
-## Technical Writing
-
-### AI Systems and Reliability
-
-<!-- MEDIUM:START -->
-
-- [AI Should Not Audit Smart Contracts. It Should Help Build Evidence.](https://medium.com/@ibrahim.a.motiwala/ai-should-not-audit-smart-contracts-it-should-help-build-evidence-7f095b691f05) - June 9, 2026
-- [AI Coding Agents Need Evidence, Not Confidence](https://medium.com/@ibrahim.a.motiwala/ai-coding-agents-need-evidence-not-confidence-7b398a48a0ec) - May 14, 2026
-- [CI Failures Are Not Text Problems. They Are Execution Problems.](https://medium.com/@ibrahim.a.motiwala/ci-failures-are-not-text-problems-they-are-execution-problems-e8ab5db074cd) - May 11, 2026
-- [From Math to Code: Building Logistic Regression from Scratch (Binary Classification Example)](https://medium.com/@ibrahim.a.motiwala/from-math-to-code-building-logistic-regression-from-scratch-binary-classification-example-b5e51dd9e05b) - September 22, 2025
-- [From Math to Code: Building Linear Regression with Gradient Descent (Housing Prices Example)](https://medium.com/@ibrahim.a.motiwala/from-math-to-code-building-linear-regression-with-gradient-descent-housing-prices-example-9b98b58fb9db) - September 15, 2025
-
-<!-- MEDIUM:END -->
-
-Writing focus:
-
-- evaluation-first AI engineering
-- deterministic agent workflows
-- CI reliability and evidence-backed RCA
-- guardrails and validation in AI-assisted development
+* Real paid service execution
+* Context.dev-backed external evidence
+* Hyperfusion-powered analysis and explanation
+* Deterministic verification and replay protection
+* Explicit handling of ambiguous and unverifiable outcomes
 
 ---
 
-## Technical Areas
+## Vault Steward
 
-### AI Infrastructure
-- LLM orchestration
-- Agent systems
-- RAG / retrieval workflows
-- Evaluation pipelines
-- AI reliability
-- LangGraph
-- LangChain
-- vLLM
+[GitHub](https://github.com/ibrahim1023/vault-steward)
 
-### Blockchain Infrastructure
-- EVM
-- Solana
-- Stellar
-- SUI
+A local-first Obsidian plugin that continuously checks the integrity of a user's knowledge base.
+
+Specialized agents inspect vault content for contradictions, stale notes, duplicate entities, broken references, orphaned tasks, schema violations, and unresolved decisions, with Hyperfusion used for higher-level reasoning and explanations.
+
+* Published Obsidian plugin
+* Local-first vault analysis
+* Multi-agent integrity checks
+* Hyperfusion-powered reasoning
+* User-owned data remains under user control
 
 ---
 
-## Contact
+## CaseZero
 
-- [GitHub](https://github.com/ibrahim1023)
-- [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/)
-- [Medium](https://medium.com/@ibrahim.a.motiwala)
+Ongoing.
+
+An investigation system that uses Context.dev for external evidence gathering and Hyperfusion for reasoning over structured case data.
+
+Currently being built around real operational workflows, explicit case state, evidence-backed reasoning, and reproducible investigation steps.
+
+---
+
+[GitHub](https://github.com/ibrahim1023) · [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/) · [Medium](https://medium.com/@ibrahim.a.motiwala)
