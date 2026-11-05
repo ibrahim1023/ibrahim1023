@@ -34,4 +34,18 @@ Specialized agents inspect vault content for contradictions, stale notes, duplic
 
 ---
 
+## Agent Runtime Reliability Lab
+
+[GitHub](https://github.com/ibrahim1023/agent-runtime-reliability-lab)
+
+An independent, AI-assisted lab using Deep Agents, LangChain and LangGraph to investigate what happens when an action commits, the process crashes, and the tool runs again.
+
+Scripted recovery experiments compare duplicate effects with receiver-side protection. Application reporting distinguishes confirmed completion, duplicates and outcomes that cannot be verified.
+
+* Crash/resume experiments with protected and unprotected receivers
+* Approval, retry and request-budget behavior
+* Reviewed evidence, preserved failures and dependency-free verification
+
+---
+
 [GitHub](https://github.com/ibrahim1023) · [LinkedIn](https://www.linkedin.com/in/ibrahim-arshad-23355a166/) · [Medium](https://medium.com/@ibrahim.a.motiwala)
