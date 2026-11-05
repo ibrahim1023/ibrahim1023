@@ -2,6 +2,18 @@
 
 AI Systems Engineer building agent infrastructure, evaluation systems, and production-oriented AI tooling.
 
+## Agent Runtime Reliability Lab
+
+[GitHub](https://github.com/ibrahim1023/agent-runtime-reliability-lab)
+
+An independent, AI-assisted lab using Deep Agents, LangChain and LangGraph to investigate what happens when an action commits, the process crashes, and the tool runs again.
+
+Scripted recovery experiments compare duplicate effects with receiver-side protection. Application reporting distinguishes confirmed completion, duplicates and outcomes that cannot be verified.
+
+* Crash/resume experiments with protected and unprotected receivers
+* Approval, retry and request-budget behavior
+* Reviewed evidence, preserved failures and dependency-free verification
+
 ## SettleDiff
 
 [GitHub](https://github.com/ibrahim1023/SettleDiff)
@@ -16,8 +28,6 @@ SettleDiff executes real paid requests against marketplace services, captures ex
 * Deterministic verification and replay protection
 * Explicit handling of ambiguous and unverifiable outcomes
 
----
-
 ## Vault Steward
 
 [GitHub](https://github.com/ibrahim1023/vault-steward)
@@ -31,20 +41,6 @@ Specialized agents inspect vault content for contradictions, stale notes, duplic
 * Multi-agent integrity checks
 * Hyperfusion-powered reasoning
 * User-owned data remains under user control
-
----
-
-## Agent Runtime Reliability Lab
-
-[GitHub](https://github.com/ibrahim1023/agent-runtime-reliability-lab)
-
-An independent, AI-assisted lab using Deep Agents, LangChain and LangGraph to investigate what happens when an action commits, the process crashes, and the tool runs again.
-
-Scripted recovery experiments compare duplicate effects with receiver-side protection. Application reporting distinguishes confirmed completion, duplicates and outcomes that cannot be verified.
-
-* Crash/resume experiments with protected and unprotected receivers
-* Approval, retry and request-budget behavior
-* Reviewed evidence, preserved failures and dependency-free verification
 
 ---
 
